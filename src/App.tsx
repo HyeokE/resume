@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// 언제 만날지 정하는 웹뷰
+//firebase login set nickname
+//set calendar
+//share with friend
+
 function App() {
   return (
     <div className="App">

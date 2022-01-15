@@ -24,6 +24,27 @@ export const StyledH4 = styled.h4`
     font-size: 1.5rem;
   }
 `;
+export const StyledSection = styled.section`
+  padding: 0 2rem;
+`;
+export const GithubImg = styled.img`
+  height: 2rem;
+`;
+export const ImageWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0 solid;
+  border-radius: 50%;
+  margin-left: 15px;
+  height: 2.5rem;
+  width: 2.5rem;
+  &:hover {
+    cursor: pointer;
+    background: #bfc4cb;
+    transition: 0.3s all;
+  }
+`;
 export const StyledH5 = styled.h5`
   font-size: 1.3rem;
   margin: 0 0 0.5rem 0;
@@ -87,6 +108,7 @@ export const StyledA = styled.a`
   color: #3a7bd5;
   transition: color 0.3s ease;
   font-weight: bold;
+  margin-right: 0.5rem;
   &:hover {
     color: #00d2ff;
     cursor: pointer;
@@ -105,12 +127,14 @@ export const ProjectWrapper = styled.div`
 `;
 export const Role = styled.span`
   display: block;
+  font-size: 16px;
 `;
 export const OtherWrapper = styled.div`
   padding: 3rem 0;
   border-bottom: 1px solid #eeeeee;
 `;
 export const TimeWrapper = styled.span`
-  display: block;
-  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
 `;

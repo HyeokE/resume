@@ -3,6 +3,8 @@ import './App.css';
 import {
   BigParagraph,
   Container,
+  GithubImg,
+  ImageWrapper,
   OtherWrapper,
   PeriodMark,
   ProjectWrapper,
@@ -19,14 +21,16 @@ import {
   StyledHr,
   StyledLi,
   StyledP,
+  StyledSection,
   StyledUl,
   TimeWrapper,
 } from './styled';
+import github from './img/github.svg';
 
 function App() {
   return (
     <Container>
-      <section>
+      <StyledSection>
         <StyledH1>
           반갑습니다,
           <br />
@@ -38,8 +42,8 @@ function App() {
           효율적인 공부방법이라고 생각합니다. 주도적으로 업무를 진행할 수 있는
           환경을 선호합니다.
         </BigParagraph>
-      </section>
-      <section>
+      </StyledSection>
+      <StyledSection>
         <StyledH2>
           Project Experience<PeriodMark>.</PeriodMark>
         </StyledH2>
@@ -58,11 +62,18 @@ function App() {
               <StyledH4>
                 Devfest [GDG X GDSC]
                 <PeriodMark>.</PeriodMark>
+                <Role>개발자의 축제 DevFest.</Role>
               </StyledH4>
-              <Role>개발자의 축제 DevFest.</Role>
+
               <TimeWrapper>
                 <time>2019. 10. 05 - 2019. 10. 26</time>
               </TimeWrapper>
+              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+                Github
+              </StyledA>
+              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+                SiteLink
+              </StyledA>
               <StyledHr />
               <StyledH5>
                 Description<PeriodMark>.</PeriodMark>
@@ -90,8 +101,8 @@ function App() {
               </StyledH5>
               <StyledUl>
                 <StyledLi>React.js의 폴더구조</StyledLi>
-                <StyledLi>TypeScript의 사용방법</StyledLi>
-                <StyledLi>Commit convention</StyledLi>
+                <StyledLi>Type, const assertion, union</StyledLi>
+                <StyledLi>Commit Convention</StyledLi>
               </StyledUl>
               <StyledH5>
                 Tech Stack<PeriodMark>.</PeriodMark>
@@ -105,15 +116,20 @@ function App() {
                 GoogleDSC DJU Website
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
+
               <TimeWrapper>
                 <time>2021.10.29 ~ 현재</time>
               </TimeWrapper>
+              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+                Github
+              </StyledA>
+              <StyledA href={'https://gdsc-dju.web.app/'}>SiteLink</StyledA>
               <StyledHr />
               <StyledH5>
                 Description<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
-                이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트입니다.
+                이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
                 제작 이후 지원자가 50% 증가했습니다.
               </StyledP>
               <StyledH5>
@@ -130,42 +146,52 @@ function App() {
                 What did I learned<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>Firebase Key를 노출되지 않도록 하는 방법</StyledLi>
+                <StyledLi>Firebase Key 노출방지</StyledLi>
                 <StyledLi>Styled-Component Props 전달</StyledLi>
-                <StyledLi>animation</StyledLi>
+                <StyledLi>Yup, formik</StyledLi>
               </StyledUl>
               <StyledH5>
                 Tech Stack<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
-                TypeScript, React.js, Styled-component, Recoil, firestore
+                TypeScript, React.js, Styled-component, Recoil, firestore,
+                firebase Hosting
               </StyledP>
             </ProjectWrapper>
             <ProjectWrapper>
               <StyledH4>
-                GoogleDSC DJU Onboarding
+                Onboarding page
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
               <TimeWrapper>
                 <time>2021.12.05 ~ 2021.12.29</time>
               </TimeWrapper>
+              <StyledA
+                href={
+                  'https://github.com/HyeokE/gdsc-dju-web-ts/tree/master/src/pages/OnBoarding'
+                }
+              >
+                Github
+              </StyledA>
+              <StyledA href={'https://gdsc-dju.web.app/onboarding'}>
+                SiteLink
+              </StyledA>
               <StyledHr />
               <StyledH5>
                 Description<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
-                소개 사이트 제작 이후 신규멤버의 정보를 받기 위한 Onboarding
-                페이지입니다. 사용자의 경험에 초점을 두고 개발을 진행했습니다.
+                소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
+                Onboarding 페이지입니다. 사용자의 경험에 초점을 두고 개발을
+                진행했습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>반복되는 코드 Component로 분리작업</StyledLi>
-                <StyledLi>
-                  사이트에서 사용되는 컬러 및 디자인으로 디자인 에셋 제작
-                </StyledLi>
-                <StyledLi>운영진용 Admin 제작</StyledLi>
+                <StyledLi>nickname, gmail, major, interest page 제작</StyledLi>
+                <StyledLi>boarding pass</StyledLi>
+                <StyledLi>Nickname Validation</StyledLi>
               </StyledUl>
               <StyledH5>
                 What did I learned<PeriodMark>.</PeriodMark>
@@ -173,7 +199,7 @@ function App() {
               <StyledUl>
                 <StyledLi>CORS 오류</StyledLi>
                 <StyledLi>Framer-Motion</StyledLi>
-                <StyledLi>animation</StyledLi>
+                <StyledLi>무료 도메인 이슈</StyledLi>
               </StyledUl>
               <StyledH5>
                 Tech Stack<PeriodMark>.</PeriodMark>
@@ -184,16 +210,77 @@ function App() {
             </ProjectWrapper>
           </RowRight>
         </Row>
-      </section>
+        <Row>
+          <RowLeft>
+            <StyledH3>
+              Team OZET<PeriodMark>.</PeriodMark>
+            </StyledH3>
+            <Role>Frontend Developer</Role>
+            <span>
+              <time>2019. 07</time> - 현재{' '}
+            </span>
+          </RowLeft>
+          <RowRight>
+            <ProjectWrapper>
+              <StyledH4>
+                OZET
+                <PeriodMark>.</PeriodMark>
+                <Role>미용사들을 위한 이력서 플랫폼.</Role>
+              </StyledH4>
 
-      <section>
+              <TimeWrapper>
+                <time>2019. 10. 05 - 2019. 10. 26</time>
+              </TimeWrapper>
+              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+                Github
+              </StyledA>
+              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+                SiteLink
+              </StyledA>
+              <StyledHr />
+              <StyledH5>
+                Description<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledP>
+                미용사들을 위한 이력서 플랫폼으로 프론트엔드 2명 중 1명으로
+                참여하였습니다. Web View로 제작이 되었으며 상세공고 페이지,
+                이력서 페이지, 이력서 pdf를 제작하였습니다.
+              </StyledP>
+              <StyledH5>
+                What did I do<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledUl>
+                <StyledLi>반응형 이력서 페이지</StyledLi>
+                <StyledLi>상세공고 페이지</StyledLi>
+                <StyledLi>알림 관련 Alert 제작</StyledLi>
+              </StyledUl>
+              <StyledH5>
+                What did I learned<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledUl>
+                <StyledLi>useRef</StyledLi>
+                <StyledLi>JWT 토큰</StyledLi>
+              </StyledUl>
+              <StyledH5>
+                Tech Stack<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledP>
+                TypeScript, React.js, Styled-component, Recoil, SWR, Axios,
+                carrot frame
+              </StyledP>
+            </ProjectWrapper>
+          </RowRight>
+        </Row>
+      </StyledSection>
+
+      <StyledSection>
         <StyledH2>
           Other Experiences<PeriodMark>.</PeriodMark>
         </StyledH2>
         <OtherWrapper>
-          <h3>
+          <StyledH3>
             GoogleDSC Korea<PeriodMark>.</PeriodMark>
-          </h3>
+          </StyledH3>
           <Role>Daejin University Lead</Role>
           <TimeWrapper>
             <time>2019. 07.</time> - 현재
@@ -204,14 +291,14 @@ function App() {
               href={'https://sites.google.com/view/gdeveloperskorea/gdsc'}
             >
               GoogleDSC
-            </StyledA>{' '}
-            의 Daejin University 챕터의 리드를 맡고 있습니다. 멤버 분들에게
+            </StyledA>
+            Daejin University 챕터의 리드를 맡고 있습니다. 멤버 분들에게
             프로젝트 및 스터디 가이드라인을 드리고 내부 행사를 기획,
             진행하였습니다.
           </StyledP>
         </OtherWrapper>
-      </section>
-      <section>
+      </StyledSection>
+      <StyledSection>
         <StyledH2>
           Skills<PeriodMark>.</PeriodMark>
         </StyledH2>
@@ -221,9 +308,9 @@ function App() {
           </StyledH3>
           <StyledUl>
             <StyledLi>
-              아름다운 유저 인터페이스 및 애니메이션 구현을 즐깁니다. 꼭
-              애니메이션이 디자인에 포함되어 있지 않아도 선행해서 애니메이션을
-              구현하는 편입니다.
+              아름다운 UI 및 애니메이션 구현을 즐깁니다. 꼭 애니메이션이
+              디자인에 포함되어 있지 않아도 선행해서 애니메이션을 구현하며
+              제안하는 편입니다.
             </StyledLi>
             <StyledLi>
               프로젝트에 필요하다면 능숙한 분야가 아니더라도 적극적으로 미리
@@ -233,11 +320,30 @@ function App() {
               커뮤니티 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를
               적극적으로 하며 아이디어의 수용이 빠릅니다.
             </StyledLi>
-            <li>솔직하며 직설적인 커뮤니케이션을 선호합니다.</li>
+            <StyledLi>솔직하며 직설적인 커뮤니케이션을 선호합니다.</StyledLi>
           </StyledUl>
         </OtherWrapper>
-      </section>
-      <section>
+
+        <OtherWrapper>
+          <StyledH3>
+            Communication<PeriodMark>.</PeriodMark>
+          </StyledH3>
+          <StyledUl>
+            <StyledLi>
+              직위 및 포지션에 관계없이 적극적으로 생각을 피력합니다.
+            </StyledLi>
+            <StyledLi>항상 자신이 틀렸을 수도 있다는 생각을 합니다.</StyledLi>
+            <StyledLi>
+              커뮤니케이션은 적은 것보다는 많은게 좋다고 믿습니다.
+            </StyledLi>
+            <StyledLi>
+              프로덕트의 기획 회의부터 참여하는 것을 선호합니다.
+            </StyledLi>
+          </StyledUl>
+        </OtherWrapper>
+      </StyledSection>
+
+      <StyledSection>
         <StyledH2>
           Contact<PeriodMark>.</PeriodMark>
         </StyledH2>
@@ -264,7 +370,7 @@ function App() {
             </StyledA>
           </StyledLi>
         </StyledUl>
-      </section>
+      </StyledSection>
     </Container>
   );
 }

@@ -1,3 +1,7 @@
+
+@import "../node_modules/spoqa-han-sans/css/SpoqaHanSans-kr.css";
+
+
 * {
   box-sizing: border-box;
 }

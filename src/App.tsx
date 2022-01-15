@@ -97,7 +97,7 @@ function App() {
                 <StyledLi>알림 관련 Alert 제작</StyledLi>
               </StyledUl>
               <StyledH5>
-                What did I learned<PeriodMark>.</PeriodMark>
+                What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
                 <StyledLi>React.js의 폴더구조</StyledLi>
@@ -143,7 +143,7 @@ function App() {
                 <StyledLi>운영진용 Admin 제작</StyledLi>
               </StyledUl>
               <StyledH5>
-                What did I learned<PeriodMark>.</PeriodMark>
+                What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
                 <StyledLi>Firebase Key 노출방지</StyledLi>
@@ -194,7 +194,7 @@ function App() {
                 <StyledLi>Nickname Validation</StyledLi>
               </StyledUl>
               <StyledH5>
-                What did I learned<PeriodMark>.</PeriodMark>
+                What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
                 <StyledLi>CORS 오류</StyledLi>
@@ -255,7 +255,7 @@ function App() {
                 <StyledLi>알림 관련 Alert 제작</StyledLi>
               </StyledUl>
               <StyledH5>
-                What did I learned<PeriodMark>.</PeriodMark>
+                What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
                 <StyledLi>useRef</StyledLi>

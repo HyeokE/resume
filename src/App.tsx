@@ -83,10 +83,9 @@ function App() {
                 <StyledA href="https://www.festa.io" target="_blank">
                   Devfest
                 </StyledA>
-                의 Session 출석부 제작에 프론트엔드 개발자 3명 중 한 명으로
-                참여하였습니다. 프로젝트 완료일까지 10일 남은 상황에서 진행한
-                프로젝트로 행사 진행 중에도 추가적인 이슈에 대응하며
-                진행했습니다.
+                출석부 제작에 프론트엔드 개발자 3명 중 한 명으로 참여하였습니다.
+                프로젝트 완료일까지 10일 남은 상황에서 진행한 프로젝트로 행사
+                진행 중에도 추가적인 이슈에 대응하며 진행했습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -293,8 +292,8 @@ function App() {
               GoogleDSC
             </StyledA>
             Daejin University 챕터의 리드를 맡고 있습니다. 멤버 분들에게
-            프로젝트 및 스터디 가이드라인을 드리고 내부 행사를 기획,
-            진행하였습니다.
+            프로젝트 및 스터디 가이드라인을 드리고 내부 행사를 기획, 진행하고
+            있습니다.
           </StyledP>
         </OtherWrapper>
       </StyledSection>

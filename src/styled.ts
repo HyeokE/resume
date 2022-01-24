@@ -94,7 +94,6 @@ export const RowLeft = styled.div`
   flex-basis: 18rem;
   padding-right: 1rem;
   flex-shrink: 0;
-
   @media screen and (max-width: 960px) {
     flex-basis: 100%;
     padding-right: 0;

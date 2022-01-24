@@ -1,10 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import {
   BigParagraph,
   Container,
-  GithubImg,
-  ImageWrapper,
   OtherWrapper,
   PeriodMark,
   ProjectWrapper,
@@ -25,14 +23,13 @@ import {
   StyledUl,
   TimeWrapper,
 } from './styled';
-import github from './img/github.svg';
 
 function App() {
   return (
     <Container>
       <StyledSection>
         <StyledH1>
-          반갑습니다,
+          반갑습니다.
           <br />
           저는 정준혁입니다<PeriodMark>.</PeriodMark>
         </StyledH1>
@@ -64,7 +61,6 @@ function App() {
                 <PeriodMark>.</PeriodMark>
                 <Role>개발자의 축제 DevFest.</Role>
               </StyledH4>
-
               <TimeWrapper>
                 <time>2019. 10. 05 - 2019. 10. 26</time>
               </TimeWrapper>
@@ -93,14 +89,13 @@ function App() {
               <StyledUl>
                 <StyledLi>로그인, 로그아웃 관련 Modal 제작</StyledLi>
                 <StyledLi>유저 프로필, 프로필 수정 제작</StyledLi>
-                <StyledLi>알림 관련 Alert 제작</StyledLi>
               </StyledUl>
               <StyledH5>
                 What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>React.js의 폴더구조</StyledLi>
-                <StyledLi>Type, const assertion, union</StyledLi>
+                <StyledLi>React.js</StyledLi>
+                <StyledLi>백엔드와의 커뮤니케이션</StyledLi>
                 <StyledLi>Commit Convention</StyledLi>
               </StyledUl>
               <StyledH5>
@@ -115,7 +110,6 @@ function App() {
                 GoogleDSC DJU Website
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
-
               <TimeWrapper>
                 <time>2021.10.29 ~ 현재</time>
               </TimeWrapper>
@@ -129,7 +123,8 @@ function App() {
               </StyledH5>
               <StyledP>
                 이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
-                제작 이후 지원자가 50% 증가했습니다.
+                제작 이후 지원자가 50% 증가했습니다. 모바일 부분 성능이슈가 있어
+                현재 코드 리팩토링 중입니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -141,21 +136,6 @@ function App() {
                 </StyledLi>
                 <StyledLi>운영진용 Admin 제작</StyledLi>
               </StyledUl>
-              <StyledH5>
-                What did I learn<PeriodMark>.</PeriodMark>
-              </StyledH5>
-              <StyledUl>
-                <StyledLi>Firebase Key 노출방지</StyledLi>
-                <StyledLi>Styled-Component Props 전달</StyledLi>
-                <StyledLi>Yup, formik</StyledLi>
-              </StyledUl>
-              <StyledH5>
-                Tech Stack<PeriodMark>.</PeriodMark>
-              </StyledH5>
-              <StyledP>
-                TypeScript, React.js, Styled-component, Recoil, firestore,
-                firebase Hosting
-              </StyledP>
             </ProjectWrapper>
             <ProjectWrapper>
               <StyledH4>
@@ -181,8 +161,8 @@ function App() {
               </StyledH5>
               <StyledP>
                 소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
-                Onboarding 페이지입니다. 사용자의 경험에 초점을 두고 개발을
-                진행했습니다.
+                Onboarding 페이지입니다. 신규 멤버들에게 onboard하는 경험을 주기
+                위해 모션에 대한 고민을 많이 했습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -197,14 +177,14 @@ function App() {
               </StyledH5>
               <StyledUl>
                 <StyledLi>CORS 오류</StyledLi>
-                <StyledLi>Framer-Motion</StyledLi>
                 <StyledLi>무료 도메인 이슈</StyledLi>
               </StyledUl>
               <StyledH5>
                 Tech Stack<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
-                TypeScript, React.js, Styled-component, Recoil, SWR, axios
+                TypeScript, React.js, Styled-component, Recoil, SWR, axios,
+                Framer-motion, firebase Hosting
               </StyledP>
             </ProjectWrapper>
           </RowRight>
@@ -242,8 +222,8 @@ function App() {
               </StyledH5>
               <StyledP>
                 미용사들을 위한 이력서 플랫폼으로 프론트엔드 2명 중 1명으로
-                참여하였습니다. Web View로 제작이 되었으며 상세공고 페이지,
-                이력서 페이지, 이력서 pdf를 제작하였습니다.
+                참여하였습니다.웹뷰로 제작이 되었으며 Native앱과의 차이를 줄이기
+                위해 노력하였습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -251,14 +231,20 @@ function App() {
               <StyledUl>
                 <StyledLi>반응형 이력서 페이지</StyledLi>
                 <StyledLi>상세공고 페이지</StyledLi>
-                <StyledLi>알림 관련 Alert 제작</StyledLi>
+                <StyledLi>이력서 PDF</StyledLi>
               </StyledUl>
               <StyledH5>
                 What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>useRef</StyledLi>
-                <StyledLi>JWT 토큰</StyledLi>
+                <StyledLi>
+                  이력서 pdf 부분에서 백엔드와 협업으로 프론트에서 마크업을
+                  백엔드에서 pdf로의 변환하는 것을 제안했습니다.
+                </StyledLi>
+                <StyledLi>
+                  이력서 페이지모션 부분의 개발공수를 고려하며 디자이너 분과의
+                  상의를 통해 릴리즈 일자에 맞출 수 있도록 조율하였습니다.
+                </StyledLi>
               </StyledUl>
               <StyledH5>
                 Tech Stack<PeriodMark>.</PeriodMark>
@@ -272,6 +258,42 @@ function App() {
         </Row>
       </StyledSection>
 
+      <StyledSection>
+        <StyledH2>
+          Communication<PeriodMark>.</PeriodMark>
+        </StyledH2>
+        <OtherWrapper>
+          <StyledH3>
+            Overall<PeriodMark>.</PeriodMark>
+          </StyledH3>
+          <StyledUl>
+            <StyledLi>
+              Framer-motion을 사용하여 UI 및 애니메이션 구현을 즐깁니다. 꼭
+              애니메이션이 디자인에 포함되어 있지 않아도 선행해서 애니메이션을
+              구현하며 제안하는 편입니다.
+            </StyledLi>
+            <StyledLi>
+              프로젝트에 필요하다면 능숙한 분야가 아니더라도 미리 탐색하여
+              최적의 결과를 낼 수 있도록 노력합니다.
+            </StyledLi>
+            <StyledLi>
+              커뮤니티 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를
+              적극적으로 하며 아이디어의 수용이 빠릅니다.
+            </StyledLi>
+            <StyledLi>솔직하며 직설적인 커뮤니케이션을 선호합니다.</StyledLi>
+            <StyledLi>
+              직위 및 포지션에 관계없이 적극적으로 생각을 피력합니다.
+            </StyledLi>
+            <StyledLi>항상 자신이 틀렸을 수도 있다는 생각을 합니다.</StyledLi>
+            <StyledLi>
+              커뮤니케이션은 적은 것보다는 많은게 좋다고 믿습니다.
+            </StyledLi>
+            <StyledLi>
+              프로덕트의 기획 회의부터 참여하는 것을 선호합니다.
+            </StyledLi>
+          </StyledUl>
+        </OtherWrapper>
+      </StyledSection>
       <StyledSection>
         <StyledH2>
           Other Experiences<PeriodMark>.</PeriodMark>
@@ -291,57 +313,31 @@ function App() {
             >
               GoogleDSC
             </StyledA>
-            Daejin University 챕터의 리드를 맡고 있습니다. 멤버 분들에게
-            프로젝트 및 스터디 가이드라인을 드리고 내부 행사를 기획, 진행하고
-            있습니다.
+            Daejin University 챕터의 1기 리드를 맡고 있습니다.
           </StyledP>
-        </OtherWrapper>
-      </StyledSection>
-      <StyledSection>
-        <StyledH2>
-          Skills<PeriodMark>.</PeriodMark>
-        </StyledH2>
-        <OtherWrapper>
-          <StyledH3>
-            Overall<PeriodMark>.</PeriodMark>
-          </StyledH3>
+          <StyledH5>
+            What did I do<PeriodMark>.</PeriodMark>
+          </StyledH5>
           <StyledUl>
             <StyledLi>
-              아름다운 UI 및 애니메이션 구현을 즐깁니다. 꼭 애니메이션이
-              디자인에 포함되어 있지 않아도 선행해서 애니메이션을 구현하며
-              제안하는 편입니다.
+              영어 닉네임을 도입하여 학번, 나이, 경력에 상관없이 수평적 문화를
+              조성하도록 노력하였습니다.
             </StyledLi>
             <StyledLi>
-              프로젝트에 필요하다면 능숙한 분야가 아니더라도 적극적으로 미리
-              탐색하여 최적의 결과를 낼 수 있도록 노력합니다.
+              모두가 기획자, 팀 리드가 될 수 있도록 자유로운 커뮤니티를
+              만들었습니다.
             </StyledLi>
             <StyledLi>
-              커뮤니티 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를
-              적극적으로 하며 아이디어의 수용이 빠릅니다.
-            </StyledLi>
-            <StyledLi>솔직하며 직설적인 커뮤니케이션을 선호합니다.</StyledLi>
-          </StyledUl>
-        </OtherWrapper>
-
-        <OtherWrapper>
-          <StyledH3>
-            Communication<PeriodMark>.</PeriodMark>
-          </StyledH3>
-          <StyledUl>
-            <StyledLi>
-              직위 및 포지션에 관계없이 적극적으로 생각을 피력합니다.
-            </StyledLi>
-            <StyledLi>항상 자신이 틀렸을 수도 있다는 생각을 합니다.</StyledLi>
-            <StyledLi>
-              커뮤니케이션은 적은 것보다는 많은게 좋다고 믿습니다.
+              좋은 조직은 좋은 사람이 만듭니다. 실력보단 성장의지가 강한 분들을
+              모셨습니다.
             </StyledLi>
             <StyledLi>
-              프로덕트의 기획 회의부터 참여하는 것을 선호합니다.
+              충돌은 더 나은 환경을 만든다고 생각하기 때문에 모두가 생각을
+              피력할 수 있는 환경을 조성하였습니다.
             </StyledLi>
           </StyledUl>
         </OtherWrapper>
       </StyledSection>
-
       <StyledSection>
         <StyledH2>
           Contact<PeriodMark>.</PeriodMark>

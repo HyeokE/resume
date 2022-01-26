@@ -94,7 +94,6 @@ function App() {
                 What did I learn<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>React.js</StyledLi>
                 <StyledLi>백엔드와의 커뮤니케이션</StyledLi>
                 <StyledLi>Commit Convention</StyledLi>
               </StyledUl>
@@ -123,16 +122,16 @@ function App() {
               </StyledH5>
               <StyledP>
                 이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
-                제작 이후 지원자가 50% 증가했습니다. 모바일 부분 성능이슈가 있어
-                현재 코드 리팩토링 중입니다.
+                제작 이후 지원자가 50% 증가했습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>반복되는 코드 Component로 분리작업</StyledLi>
+                <StyledLi>코드 재사용성 증가를 위한 Component 분리</StyledLi>
+                <StyledLi>성능 개선을 위한 React Lazy 적용</StyledLi>
                 <StyledLi>
-                  사이트에서 사용되는 컬러 및 디자인으로 디자인 에셋 제작
+                  사이트에서 사용되는 color, font-size 디자인 에셋 제작
                 </StyledLi>
                 <StyledLi>운영진용 Admin 제작</StyledLi>
               </StyledUl>
@@ -161,7 +160,7 @@ function App() {
               </StyledH5>
               <StyledP>
                 소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
-                Onboarding 페이지입니다. 신규 멤버들에게 onboard하는 경험을 주기
+                Onboarding 페이지입니다. 신규 멤버들에게 여행하는 경험을 주기
                 위해 모션에 대한 고민을 많이 했습니다.
               </StyledP>
               <StyledH5>
@@ -208,7 +207,7 @@ function App() {
               </StyledH4>
 
               <TimeWrapper>
-                <time>2019. 11. 27 - 2022. 1. 31</time>
+                <time>2021. 11. 27 - 2022. 1. 31</time>
               </TimeWrapper>
               <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
                 Github
@@ -222,8 +221,8 @@ function App() {
               </StyledH5>
               <StyledP>
                 미용사들을 위한 이력서 플랫폼으로 프론트엔드 2명 중 1명으로
-                참여하였습니다.웹뷰로 제작이 되었으며 Native앱과의 차이를 줄이기
-                위해 노력하였습니다.
+                참여하였습니다. 웹뷰와 native앱 간의 차이를 줄이기 위해
+                노력하였습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -238,8 +237,8 @@ function App() {
               </StyledH5>
               <StyledUl>
                 <StyledLi>
-                  이력서 pdf 부분에서 백엔드와 협업으로 프론트에서 마크업을
-                  백엔드에서 pdf로의 변환하는 것을 제안했습니다.
+                  이력서 pdf 부분에서 백엔드와 협업으로 프론트에서 마크업을,
+                  백엔드에서 pdf로의 변환하는 작업을 제안했습니다.
                 </StyledLi>
                 <StyledLi>
                   이력서 페이지모션 부분의 개발공수를 고려하며 디자이너 분과의

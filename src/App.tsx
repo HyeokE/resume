@@ -80,8 +80,6 @@ function App() {
                   Devfest
                 </StyledA>
                 출석부 제작에 프론트엔드 개발자 3명 중 한 명으로 참여하였습니다.
-                프로젝트 완료일까지 10일 남은 상황에서 진행한 프로젝트로 행사
-                진행 중에도 추가적인 이슈에 대응하며 진행했습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -168,8 +166,8 @@ function App() {
               </StyledH5>
               <StyledUl>
                 <StyledLi>nickname, gmail, major, interest page 제작</StyledLi>
-                <StyledLi>boarding pass</StyledLi>
-                <StyledLi>Nickname Validation</StyledLi>
+                <StyledLi>html2canvas를 이용한 boarding pass 저장</StyledLi>
+                <StyledLi>Yup을 이용한 nickname validation</StyledLi>
               </StyledUl>
               <StyledH5>
                 What did I learn<PeriodMark>.</PeriodMark>
@@ -221,7 +219,7 @@ function App() {
               </StyledH5>
               <StyledP>
                 미용사들을 위한 이력서 플랫폼으로 프론트엔드 2명 중 1명으로
-                참여하였습니다. 웹뷰와 native앱 간의 차이를 줄이기 위해
+                참여하였습니다. 웹뷰와 네이티브앱 간의 차이를 줄이기 위해
                 노력하였습니다.
               </StyledP>
               <StyledH5>
@@ -241,7 +239,7 @@ function App() {
                   백엔드에서 pdf로의 변환하는 작업을 제안했습니다.
                 </StyledLi>
                 <StyledLi>
-                  이력서 페이지모션 부분의 개발공수를 고려하며 디자이너 분과의
+                  이력서 페이지모션 부분의 개발공수를 고려하며 디자이너 분과
                   상의를 통해 릴리즈 일자에 맞출 수 있도록 조율하였습니다.
                 </StyledLi>
               </StyledUl>
@@ -346,20 +344,12 @@ function App() {
             <StyledA href="mailto:jhjeong00@gmail.com">이메일</StyledA>
           </StyledLi>
           <StyledLi>
-            <StyledA
-              href="https://velog.io/@jhjeong00"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <StyledA href="https://velog.io/@jhjeong00" target="_blank">
               블로그
             </StyledA>
           </StyledLi>
           <StyledLi>
-            <StyledA
-              href="https://github.com/HyeokE"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <StyledA href="https://github.com/HyeokE" target="_blank">
               깃허브
             </StyledA>
           </StyledLi>

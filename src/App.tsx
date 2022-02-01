@@ -116,7 +116,7 @@ function App() {
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
               <TimeWrapper>
-                <time>2021.10.29 ~ 현재</time>
+                <time>2021.10.29 - 현재</time>
               </TimeWrapper>
               <StyledA
                 target="_blank"
@@ -152,11 +152,11 @@ function App() {
             </ProjectWrapper>
             <ProjectWrapper>
               <StyledH4>
-                GDSC-DJU Onboarding page
+                Onboarding page
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
               <TimeWrapper>
-                <time>2021.12.05 ~ 2021.12.29</time>
+                <time>2021.12.05 - 2021.12.29</time>
               </TimeWrapper>
               <StyledA
                 target="_blank"
@@ -328,43 +328,54 @@ function App() {
           Other Experiences<PeriodMark>.</PeriodMark>
         </StyledH2>
         <OtherWrapper>
-          <StyledH3>
-            GoogleDSC Korea<PeriodMark>.</PeriodMark>
-          </StyledH3>
-          <Role>Daejin University Lead</Role>
-          <TimeWrapper>
-            <time>2019. 07. - 현재</time>
-          </TimeWrapper>
-          <StyledP>
-            Google Developers에서 지원하는{' '}
-            <StyledA
-              href={'https://sites.google.com/view/gdeveloperskorea/gdsc'}
-            >
-              GoogleDSC
-            </StyledA>
-            Daejin University 챕터의 1기 리드를 맡고 있습니다.
-          </StyledP>
-          <StyledH5>
-            What did I do<PeriodMark>.</PeriodMark>
-          </StyledH5>
-          <StyledUl>
-            <StyledLi>
-              영어 닉네임을 도입하여 학번, 나이, 경력에 상관없이 수평적 문화를
-              조성하도록 노력하였습니다.
-            </StyledLi>
-            <StyledLi>
-              모두가 기획자, 팀 리드가 될 수 있도록 자유로운 커뮤니티를
-              만들었습니다.
-            </StyledLi>
-            <StyledLi>
-              좋은 조직은 좋은 사람이 만듭니다. 성장의지가 강한 분들을
-              모셨습니다.
-            </StyledLi>
-            <StyledLi>
-              충돌은 더 나은 환경을 만든다고 생각하기 때문에 모두가 생각을
-              피력할 수 있는 환경을 조성하였습니다.
-            </StyledLi>
-          </StyledUl>
+          <ProjectWrapper>
+            <StyledH3>
+              GoogleDSC Korea<PeriodMark>.</PeriodMark>
+            </StyledH3>
+            <Role>Daejin University Lead</Role>
+            <TimeWrapper>
+              <time>2019. 07. - 현재</time>
+            </TimeWrapper>
+            <StyledP>
+              Google Developers에서 지원하는{' '}
+              <StyledA
+                href={'https://sites.google.com/view/gdeveloperskorea/gdsc'}
+              >
+                GoogleDSC
+              </StyledA>
+              Daejin University 챕터의 1기 리드를 맡고 있습니다.
+            </StyledP>
+            <StyledH5>
+              What did I do<PeriodMark>.</PeriodMark>
+            </StyledH5>
+            <StyledUl>
+              <StyledLi>
+                영어 닉네임을 도입하여 학번, 나이, 경력에 상관없이 수평적 문화를
+                조성하도록 노력하였습니다.
+              </StyledLi>
+              <StyledLi>
+                모두가 기획자, 팀 리드가 될 수 있도록 자유로운 커뮤니티를
+                만들었습니다.
+              </StyledLi>
+              <StyledLi>
+                좋은 조직은 좋은 사람이 만듭니다. 성장의지가 강한 분들을
+                모셨습니다.
+              </StyledLi>
+              <StyledLi>
+                충돌은 더 나은 환경을 만든다고 생각하기 때문에 모두가 생각을
+                피력할 수 있는 환경을 조성하였습니다.
+              </StyledLi>
+            </StyledUl>
+          </ProjectWrapper>
+          <ProjectWrapper>
+            <StyledH3>
+              Daejin University<PeriodMark>.</PeriodMark>
+            </StyledH3>
+            <Role>로봇공학과 (휴학)</Role>
+            <TimeWrapper>
+              <time>2019. 03. - 현재</time>
+            </TimeWrapper>
+          </ProjectWrapper>
         </OtherWrapper>
       </StyledSection>
       <StyledSection>

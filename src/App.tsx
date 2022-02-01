@@ -64,10 +64,18 @@ function App() {
               <TimeWrapper>
                 <time>2019. 10. 05 - 2019. 10. 26</time>
               </TimeWrapper>
-              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+              <StyledA
+                target="_blank"
+                href={
+                  'https://github.com/devfest-2021/devfest-2021-guidebook-fe'
+                }
+              >
                 Github
               </StyledA>
-              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+              <StyledA
+                target="_blank"
+                href={'https://devfest-2021-guestbook.netlify.app/'}
+              >
                 SiteLink
               </StyledA>
               <StyledHr />
@@ -110,24 +118,32 @@ function App() {
               <TimeWrapper>
                 <time>2021.10.29 ~ 현재</time>
               </TimeWrapper>
-              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+              <StyledA
+                target="_blank"
+                href={'https://github.com/HyeokE/gdsc-dju-web-ts'}
+              >
                 Github
               </StyledA>
-              <StyledA href={'https://gdsc-dju.web.app/'}>SiteLink</StyledA>
+              <StyledA target="_blank" href={'https://gdsc-dju.web.app/'}>
+                SiteLink
+              </StyledA>
               <StyledHr />
               <StyledH5>
                 Description<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
                 이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
-                제작 이후 지원자가 50% 증가했습니다.
+                제작 이후 지원자가 50% 증가했습니다. 코드 리팩토링을 하며
+                React-lazy를 적용하여 lighthouse 기준 performance 점수가 70점
+                상승하였습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
                 <StyledLi>코드 재사용성 증가를 위한 Component 분리</StyledLi>
-                <StyledLi>성능 개선을 위한 React Lazy 적용</StyledLi>
+                <StyledLi>성능 개선을 위한 React-Lazy 적용</StyledLi>
+                <StyledLi>admin, main, onboard로 route 분리</StyledLi>
                 <StyledLi>
                   사이트에서 사용되는 color, font-size 디자인 에셋 제작
                 </StyledLi>
@@ -136,20 +152,24 @@ function App() {
             </ProjectWrapper>
             <ProjectWrapper>
               <StyledH4>
-                Onboarding page
+                GDSC-DJU Onboarding page
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
               <TimeWrapper>
                 <time>2021.12.05 ~ 2021.12.29</time>
               </TimeWrapper>
               <StyledA
+                target="_blank"
                 href={
-                  'https://github.com/HyeokE/gdsc-dju-web-ts/tree/master/src/pages/OnBoarding'
+                  'https://github.com/HyeokE/gdsc-dju-web-ts/tree/master/src/pages/OnBoard'
                 }
               >
                 Github
               </StyledA>
-              <StyledA href={'https://gdsc-dju.web.app/onboarding'}>
+              <StyledA
+                target="_blank"
+                href={'https://gdsc-dju.web.app/onboard'}
+              >
                 SiteLink
               </StyledA>
               <StyledHr />
@@ -207,10 +227,22 @@ function App() {
               <TimeWrapper>
                 <time>2021. 11. 27 - 2022. 1. 31</time>
               </TimeWrapper>
-              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+              <StyledA
+                href={'https://github.com/ozet-team/ozet-resume'}
+                target="_blank"
+                onClick={() => {
+                  window.open(
+                    'https://github.com/ozet-team/ozet-hybrid',
+                    '_blank',
+                  );
+                }}
+              >
                 Github
               </StyledA>
-              <StyledA href={'https://github.com/HyeokE/gdsc-dju-web-ts'}>
+              <StyledA
+                target="_blank"
+                href={'https://github.com/HyeokE/gdsc-dju-web-ts'}
+              >
                 SiteLink
               </StyledA>
               <StyledHr />
@@ -267,7 +299,7 @@ function App() {
             <StyledLi>
               Framer-motion을 사용하여 UI 및 애니메이션 구현을 즐깁니다. 꼭
               애니메이션이 디자인에 포함되어 있지 않아도 선행해서 애니메이션을
-              구현하며 제안하는 편입니다.
+              구현하거나 제안하는 편입니다.
             </StyledLi>
             <StyledLi>
               프로젝트에 필요하다면 능숙한 분야가 아니더라도 미리 탐색하여
@@ -325,7 +357,7 @@ function App() {
               만들었습니다.
             </StyledLi>
             <StyledLi>
-              좋은 조직은 좋은 사람이 만듭니다. 실력보단 성장의지가 강한 분들을
+              좋은 조직은 좋은 사람이 만듭니다. 성장의지가 강한 분들을
               모셨습니다.
             </StyledLi>
             <StyledLi>

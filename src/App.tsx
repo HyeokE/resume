@@ -204,6 +204,37 @@ function App() {
                 Framer-motion, firebase Hosting
               </StyledP>
             </ProjectWrapper>
+            <ProjectWrapper>
+              <StyledH4>
+                GoogleDSC DJU Tech blog
+                <PeriodMark>.</PeriodMark>
+              </StyledH4>
+              <TimeWrapper>
+                <time>2022.02.08 - 현재</time>
+              </TimeWrapper>
+              <StyledA
+                target="_blank"
+                href={'https://github.com/GDSC-Daejin/gdsc-dju-blog-fe'}
+              >
+                Github
+              </StyledA>
+              <StyledHr />
+              <StyledH5>
+                Description<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledP>
+                커뮤니티 전산화/체계화의 필요성으로 기획한 기술블로그
+                프로젝트입니다. 기존 사이트와 백엔드를 공유하며 운영진이
+                활동들을 관리할 수 있도록 진행하였습니다.
+              </StyledP>
+              <StyledH5>
+                What did I do<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledUl>
+                <StyledLi>circleci deploy 세팅</StyledLi>
+                <StyledLi>github action firebase preview 세팅</StyledLi>
+              </StyledUl>
+            </ProjectWrapper>
           </RowRight>
         </Row>
         <Row>
@@ -213,7 +244,7 @@ function App() {
             </StyledH3>
             <Role>Frontend Developer</Role>
             <span>
-              <time>2019. 11</time> - 현재{' '}
+              <time>2019. 11</time> - 현재
             </span>
           </RowLeft>
           <RowRight>
@@ -313,7 +344,9 @@ function App() {
             <StyledLi>
               직위 및 포지션에 관계없이 적극적으로 생각을 피력합니다.
             </StyledLi>
-            <StyledLi>항상 자신이 틀렸을 수도 있다는 생각을 합니다.</StyledLi>
+            <StyledLi>
+              자신이 틀렸을 수도 있다는 생각을 가지고 있습니다..
+            </StyledLi>
             <StyledLi>
               커뮤니케이션은 적은 것보다는 많은게 좋다고 믿습니다.
             </StyledLi>
@@ -364,6 +397,10 @@ function App() {
               <StyledLi>
                 충돌은 더 나은 환경을 만든다고 생각하기 때문에 모두가 생각을
                 피력할 수 있는 환경을 조성하였습니다.
+              </StyledLi>
+              <StyledLi>
+                커뮤니티의 전산화를 위해 사이트, 기술블로그, 관리자페이지를
+                기획, 개발하였습니다.
               </StyledLi>
             </StyledUl>
           </ProjectWrapper>

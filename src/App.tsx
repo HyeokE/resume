@@ -179,7 +179,7 @@ function App() {
               <StyledP>
                 소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
                 Onboarding 페이지입니다. 신규 멤버들에게 여행하는 경험을 주기
-                위해 모션에 대한 고민을 많이 했습니다.
+                위해 모션에 대한 고민을 했습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -225,7 +225,7 @@ function App() {
               <StyledP>
                 커뮤니티 전산화/체계화의 필요성으로 기획한 기술블로그
                 프로젝트입니다. 기존 사이트와 백엔드를 공유하며 운영진이
-                활동들을 관리할 수 있도록 진행하였습니다.
+                멤버들의 활동을 관리할 수 있도록 진행중입니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>

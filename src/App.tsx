@@ -51,7 +51,7 @@ function App() {
             </StyledH3>
             <Role>Frontend Developer</Role>
             <span>
-              <time>2019. 07</time> - 현재{' '}
+              <time>2021. 07</time> - 현재{' '}
             </span>
           </RowLeft>
           <RowRight>
@@ -62,7 +62,7 @@ function App() {
                 <Role>개발자의 축제 DevFest.</Role>
               </StyledH4>
               <TimeWrapper>
-                <time>2019. 10. 05 - 2019. 10. 26</time>
+                <time>2021. 10. 05 - 2021. 10. 26</time>
               </TimeWrapper>
               <StyledA
                 target="_blank"
@@ -377,7 +377,7 @@ function App() {
             </StyledH3>
             <Role>Daejin University Lead</Role>
             <TimeWrapper>
-              <time>2019. 07. - 현재</time>
+              <time>2021. 07. - 현재</time>
             </TimeWrapper>
             <StyledP>
               Google Developers에서 지원하는{' '}

@@ -107,12 +107,12 @@ function App() {
                 Tech Stack<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
-                TypeScript, React.js, Styled-component, Recoil, SWR, Axios
+                React, TypeScript, Styled-component, Recoil, SWR, Axios
               </StyledP>
             </ProjectWrapper>
             <ProjectWrapper>
               <StyledH4>
-                GoogleDSC DJU Website
+                GDSC DJU Website
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
               <TimeWrapper>
@@ -134,8 +134,8 @@ function App() {
               <StyledP>
                 이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
                 제작 이후 지원자가 50% 증가했습니다. 코드 리팩토링을 하며
-                React-lazy를 적용하여 lighthouse 기준 performance 점수가 70점
-                상승하였습니다.
+                React-lazy를 통한 최적화로 lighthouse 기준 performance 점수를
+                70점 향상시켰습니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
@@ -185,9 +185,11 @@ function App() {
                 What did I do<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>nickname, gmail, major, interest page 제작</StyledLi>
-                <StyledLi>html2canvas를 이용한 boarding pass 저장</StyledLi>
-                <StyledLi>Yup을 이용한 nickname validation</StyledLi>
+                <StyledLi>전반적인 페이지 제작</StyledLi>
+                <StyledLi>
+                  html2canvas를 이용한 boarding pass 저장기능 제작
+                </StyledLi>
+                <StyledLi>Yup과 formik을 이용한 nickname validation</StyledLi>
               </StyledUl>
               <StyledH5>
                 What did I learn<PeriodMark>.</PeriodMark>
@@ -200,13 +202,13 @@ function App() {
                 Tech Stack<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledP>
-                TypeScript, React.js, Styled-component, Recoil, SWR, axios,
+                React, TypeScript, Styled-component, Recoil, SWR, axios,
                 Framer-motion, firebase Hosting
               </StyledP>
             </ProjectWrapper>
             <ProjectWrapper>
               <StyledH4>
-                GoogleDSC DJU Tech blog
+                GDSC DJU Tech blog
                 <PeriodMark>.</PeriodMark>
               </StyledH4>
               <TimeWrapper>
@@ -225,15 +227,23 @@ function App() {
               <StyledP>
                 커뮤니티 전산화/체계화의 필요성으로 기획한 기술블로그
                 프로젝트입니다. 기존 사이트와 백엔드를 공유하며 운영진이
-                멤버들의 활동을 관리할 수 있도록 진행중입니다.
+                멤버들의 활동을 관리할 수 있도록 admin페이지와 함께 개발
+                진행중입니다.
               </StyledP>
               <StyledH5>
                 What did I do<PeriodMark>.</PeriodMark>
               </StyledH5>
               <StyledUl>
-                <StyledLi>circleci deploy 세팅</StyledLi>
-                <StyledLi>github action firebase preview 세팅</StyledLi>
+                <StyledLi>circleci으로 firebase deploy 세팅</StyledLi>
+                <StyledLi>github action으로 firebase preview 세팅</StyledLi>
               </StyledUl>
+              <StyledH5>
+                Tech Stack<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledP>
+                React, TypeScript, Styled-component, Recoil, SWR, axios,
+                Framer-motion, firebase Hosting, Giscus, Toast Editor
+              </StyledP>
             </ProjectWrapper>
           </RowRight>
         </Row>
@@ -333,8 +343,8 @@ function App() {
               구현하거나 제안하는 편입니다.
             </StyledLi>
             <StyledLi>
-              프로젝트에 필요하다면 능숙한 분야가 아니더라도 미리 탐색하여
-              최적의 결과를 낼 수 있도록 노력합니다.
+              프로젝트에 필요하다면 능숙하지 않아도 학습하여 최적의 결과를 낼 수
+              있도록 노력합니다.
             </StyledLi>
             <StyledLi>
               커뮤니티 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를
@@ -345,7 +355,7 @@ function App() {
               직위 및 포지션에 관계없이 적극적으로 생각을 피력합니다.
             </StyledLi>
             <StyledLi>
-              자신이 틀렸을 수도 있다는 생각을 가지고 있습니다..
+              자신이 틀렸을 수도 있다는 생각을 가지고 있습니다.
             </StyledLi>
             <StyledLi>
               커뮤니케이션은 적은 것보다는 많은게 좋다고 믿습니다.
@@ -363,7 +373,7 @@ function App() {
         <OtherWrapper>
           <ProjectWrapper>
             <StyledH3>
-              GoogleDSC Korea<PeriodMark>.</PeriodMark>
+              GDSC Korea<PeriodMark>.</PeriodMark>
             </StyledH3>
             <Role>Daejin University Lead</Role>
             <TimeWrapper>
@@ -404,6 +414,8 @@ function App() {
               </StyledLi>
             </StyledUl>
           </ProjectWrapper>
+        </OtherWrapper>
+        <OtherWrapper>
           <ProjectWrapper>
             <StyledH3>
               Daejin University<PeriodMark>.</PeriodMark>

@@ -414,7 +414,7 @@ function App() {
             <StyledH3>
               Daejin University<PeriodMark>.</PeriodMark>
             </StyledH3>
-            <Role>로봇공학과 (휴학)</Role>
+            <Role>휴먼IT학부•로봇공학전공 (휴학)</Role>
             <TimeWrapper>
               <time>2019. 03. - 현재</time>
             </TimeWrapper>
@@ -426,19 +426,27 @@ function App() {
           Contact<PeriodMark>.</PeriodMark>
         </StyledH2>
         <StyledUl>
+          <StyledLi>Name: 정준혁 [Jeong Jun-Hyeok]</StyledLi>
+          <StyledLi>Phone: 010-2544-1586</StyledLi>
           <StyledLi>
-            <StyledA href="mailto:jhjeong00@gmail.com">이메일</StyledA>
+            Email:{' '}
+            <StyledA href="mailto:jhjeong00@gmail.com">
+              jhjeong00@gmail.com
+            </StyledA>
           </StyledLi>
           <StyledLi>
+            Blog:{' '}
             <StyledA href="https://velog.io/@jhjeong00" target="_blank">
-              블로그
+              https://velog.io/@jhjeong00
             </StyledA>
           </StyledLi>
           <StyledLi>
+            Github:{' '}
             <StyledA href="https://github.com/HyeokE" target="_blank">
-              깃허브
+              https://github.com/HyeokE
             </StyledA>
           </StyledLi>
+          <StyledLi>산업기능요원으로 구직 중입니다.</StyledLi>
         </StyledUl>
       </StyledSection>
     </Container>

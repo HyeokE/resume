@@ -280,12 +280,6 @@ function App() {
               >
                 Github
               </StyledA>
-              <StyledA
-                target="_blank"
-                href={'https://github.com/HyeokE/gdsc-dju-web-ts'}
-              >
-                SiteLink
-              </StyledA>
               <StyledHr />
               <StyledH5>
                 Description<PeriodMark>.</PeriodMark>

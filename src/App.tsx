@@ -422,6 +422,25 @@ function App() {
         </OtherWrapper>
       </StyledSection>
       <StyledSection>
+        <OtherWrapper>
+          <ProjectWrapper>
+            <StyledH3>
+              Language<PeriodMark>.</PeriodMark>
+            </StyledH3>
+            <StyledH5>
+              English<PeriodMark>.</PeriodMark>
+            </StyledH5>
+            <Role>Limited Working Proficiency</Role>
+          </ProjectWrapper>
+          <ProjectWrapper>
+            <StyledH5>
+              Korean<PeriodMark>.</PeriodMark>
+            </StyledH5>
+            <Role>Native</Role>
+          </ProjectWrapper>
+        </OtherWrapper>
+      </StyledSection>
+      <StyledSection>
         <StyledH2>
           Contact<PeriodMark>.</PeriodMark>
         </StyledH2>
@@ -446,7 +465,7 @@ function App() {
               https://github.com/HyeokE
             </StyledA>
           </StyledLi>
-          <StyledLi>산업기능요원으로 구직 중입니다.</StyledLi>
+          <StyledLi>산업기능요원(보충역)으로 구직 중입니다.</StyledLi>
         </StyledUl>
       </StyledSection>
     </Container>

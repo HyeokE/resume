@@ -158,11 +158,10 @@ ul > li:before {
   flex-grow: 1;
 }
 
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
   .row {
     flex-direction: column;
   }
-
   .row-left {
     flex-basis: 100%;
     padding-right: 0;

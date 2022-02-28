@@ -59,7 +59,7 @@ export const StyledUl = styled.ul`
 export const StyledLi = styled.li`
   position: relative;
   padding: 0.2rem 0 0.2rem 1rem;
-  &:before {
+  ul > li:before {
     position: absolute;
     left: 0;
     display: inline-block;
@@ -136,4 +136,5 @@ export const TimeWrapper = styled.span`
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
+  font-size: 1rem;
 `;

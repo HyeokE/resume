@@ -36,8 +36,8 @@ function App() {
               <h4>
                 Devfest [GDG X GDSC]
                 <span className="period-mark">.</span>
-                <span className={'role'}>개발자의 축제 DevFest.</span>
               </h4>
+              <span className={'role'}>개발자의 축제 DevFest.</span>
               <span className={'time'}>
                 <time>2021. 10. 05 - 2021. 10. 26</time>
               </span>
@@ -242,9 +242,8 @@ function App() {
               <h4>
                 OZET
                 <span className="period-mark">.</span>
-                <span className={'role'}>미용사들을 위한 이력서 플랫폼.</span>
               </h4>
-
+              <span className={'role'}>미용사들을 위한 이력서 플랫폼.</span>
               <span className={'time'}>
                 <time>2021. 11. 27 - 2022. 1. 31</time>
               </span>

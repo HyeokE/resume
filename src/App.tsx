@@ -148,6 +148,9 @@ function App() {
                   사이트에서 사용되는 color, font-size 디자인 에셋 제작
                 </StyledLi>
                 <StyledLi>운영진용 Admin 제작</StyledLi>
+                <StyledLi>
+                  recruitForm 사이트 내에서 동아리 지원기능 개발
+                </StyledLi>
               </StyledUl>
             </ProjectWrapper>
             <ProjectWrapper>
@@ -190,6 +193,7 @@ function App() {
                   html2canvas를 이용한 boarding pass 저장기능 제작
                 </StyledLi>
                 <StyledLi>Yup과 formik을 이용한 nickname validation</StyledLi>
+                <StyledLi>Framer-Motion을 이용한 모션 제안 및 추가</StyledLi>
               </StyledUl>
               <StyledH5>
                 What did I learn<PeriodMark>.</PeriodMark>
@@ -203,7 +207,7 @@ function App() {
               </StyledH5>
               <StyledP>
                 React, TypeScript, Styled-component, Recoil, SWR, axios,
-                Framer-motion, firebase Hosting
+                Framer-motion, firebase Hosting, firebase storage
               </StyledP>
             </ProjectWrapper>
             <ProjectWrapper>

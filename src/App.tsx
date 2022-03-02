@@ -245,7 +245,7 @@ function App() {
               </h4>
               <span className={'role'}>미용사들을 위한 이력서 플랫폼.</span>
               <span className={'time'}>
-                <time>2021. 11. 27 - 2022. 1. 31</time>
+                <time>2021. 11. 27 - 현재</time>
               </span>
               <a
                 href={'https://github.com/ozet-team/ozet-resume'}

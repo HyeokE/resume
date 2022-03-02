@@ -214,7 +214,7 @@ function App() {
                 What did I do<span className="period-mark">.</span>
               </h5>
               <ul>
-                <li>circleci으로 firebase deploy 세팅</li>
+                <li>circleci로 firebase deploy 세팅</li>
                 <li>github action으로 firebase preview 세팅</li>
               </ul>
               <h5>
@@ -234,7 +234,7 @@ function App() {
             </h3>
             <span className={'role'}>Frontend Developer</span>
             <span className={'time'}>
-              <time>2019. 11</time> - 현재
+              <time>2021. 11</time> - 현재
             </span>
           </div>
           <div className={'row-right'}>

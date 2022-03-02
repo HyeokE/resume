@@ -126,7 +126,7 @@ function App() {
                 <li>admin, main, onboard로 route 분리</li>
                 <li>사이트에서 사용되는 color, font-size 디자인 에셋 제작</li>
                 <li>운영진용 Admin 제작</li>
-                <li>recruitForm 사이트 내에서 동아리 지원기능 개발</li>
+                <li>사이트 내에서 recruitForm으로 동아리 지원기능 개발</li>
               </ul>
             </div>
             <div className={'project'}>

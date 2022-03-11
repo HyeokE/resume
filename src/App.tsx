@@ -295,7 +295,7 @@ function App() {
               </h5>
               <p>
                 TypeScript, React.js, Styled-component, Recoil, SWR, Axios,
-                carrot frame
+                karrot-frame
               </p>
             </div>
           </div>

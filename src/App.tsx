@@ -115,7 +115,8 @@ function App() {
                 이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
                 제작 이후 지원자가 50% 증가했습니다. 코드 리팩토링을 하며
                 React-lazy를 통한 최적화로 lighthouse 기준 performance 점수를
-                70점 향상시켰습니다.
+                70점 향상시켰습니다. 꾸준히 사용하는 사이트이기 때문에
+                주기적으로 코드를 개선하고 기능을 추가하고 있습니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -159,7 +160,7 @@ function App() {
               <p>
                 소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
                 Onboarding 페이지입니다. 신규 멤버들에게 여행하는 경험을 주기
-                위해 모션에 대한 고민을 했습니다.
+                위해 모션을 선 개발후 제안하는 방향으로 진행하였습니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -208,7 +209,9 @@ function App() {
                 커뮤니티 전산화/체계화의 필요성으로 기획한 기술블로그
                 프로젝트입니다. 기존 사이트와 백엔드를 공유하며 운영진이
                 멤버들의 활동을 관리할 수 있도록 admin페이지와 함께 개발
-                진행중입니다.
+                진행중입니다. 가장 현재 프로젝트로 애자일 방법론을 적용하여
+                일주일에 한번씩 스프린트로 진행중에 있습니다. 가독성이 좋은
+                코드를 중점적으로 재사용성과 최적화를 고려하여 개발 중입니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -216,6 +219,10 @@ function App() {
               <ul>
                 <li>circleci로 firebase deploy 세팅</li>
                 <li>github action으로 firebase preview 세팅</li>
+                <li>디자인 시스템에 사용될 input Component 개발</li>
+                <li>사이트에 사용되는 대부분의 element 컴포넌트화</li>
+                <li>React.lazy, Suspense 적용</li>
+                <li>My blog, modal, alert, postCard 등등 개발</li>
               </ul>
               <h5>
                 Tech Stack<span className="period-mark">.</span>

@@ -37,7 +37,7 @@ function App() {
                 Devfest [GDG X GDSC]
                 <span className="period-mark">.</span>
               </h4>
-              <span className={'role'}>team-member: frontend 3, backend 3</span>
+              <span className={'role'}>팀 구성: frontend 3, backend 3</span>
               <span className={'time'}>
                 <time>2021. 10. 05 - 2021. 10. 26</time>
               </span>
@@ -91,7 +91,7 @@ function App() {
                 GDSC DJU Website
                 <span className="period-mark">.</span>
               </h4>
-              <span className={'role'}>team-member: frontend 1</span>
+              <span className={'role'}>팀 구성: frontend 1</span>
               <span className={'time'}>
                 <time>2021.10.29 - 현재</time>
               </span>
@@ -137,7 +137,7 @@ function App() {
                 <span className="period-mark">.</span>
               </h4>
               <span className={'role'}>
-                team-member: frontend 1, backend 1, designer 1
+                팀 구성: frontend 1, backend 1, designer 1
               </span>
               <span className={'time'}>
                 <time>2021.12.05 - 2021.12.29</time>
@@ -196,7 +196,7 @@ function App() {
                 <span className="period-mark">.</span>
               </h4>
               <span className={'role'}>
-                team-member: frontend 3, backend 3, designer 3
+                팀 구성: frontend 3, backend 3, designer 3
               </span>
               <span className={'time'}>
                 <time>2022.02.08 - 현재</time>
@@ -257,7 +257,7 @@ function App() {
                 <span className="period-mark">.</span>
               </h4>
               <span className={'role'}>
-                team-member: frontend 2, backend 2, android 2, ios 1, designer 3
+                팀 구성: frontend 2, backend 2, android 2, ios 1, designer 3
               </span>
               <span className={'time'}>
                 <time>2021. 11. 27 - 현재</time>

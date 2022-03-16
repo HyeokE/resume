@@ -160,7 +160,7 @@ function App() {
               <p>
                 소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
                 Onboarding 페이지입니다. 신규 멤버들에게 여행하는 경험을 주기
-                위해 모션을 선 개발후 제안하는 방향으로 진행하였습니다.
+                위해 모션을 먼저 개발후 제안하는 방향으로 진행하였습니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -218,7 +218,7 @@ function App() {
               <ul>
                 <li>circleci로 firebase deploy 세팅</li>
                 <li>github action으로 firebase preview 세팅</li>
-                <li>디자인 시스템에 사용될 input Component 개발</li>
+                <li>디자인 시스템에 사용될 input, button Component 개발</li>
                 <li>사이트에 사용되는 대부분의 element 컴포넌트화</li>
                 <li>React.lazy, Suspense 적용</li>
                 <li>My blog, profileEdit, modal, alert, postCard 등등 개발</li>
@@ -279,9 +279,9 @@ function App() {
                 What did I do<span className="period-mark">.</span>
               </h5>
               <ul>
-                <li>반응형 이력서 페이지</li>
-                <li>상세공고 페이지</li>
-                <li>이력서 PDF</li>
+                <li>반응형 이력서 페이지 개발</li>
+                <li>상세공고 페이지 개발</li>
+                <li>이력서 PDF 마크업</li>
               </ul>
               <h5>
                 What did I learn<span className="period-mark">.</span>

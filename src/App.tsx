@@ -210,8 +210,8 @@ function App() {
                 프로젝트입니다. 기존 사이트와 백엔드를 공유하며 운영진이
                 멤버들의 활동을 관리할 수 있도록 admin페이지와 함께 개발
                 진행중입니다. 가장 현재 프로젝트로 애자일 방법론을 적용하여
-                일주일에 한번씩 스프린트로 진행중에 있습니다. 가독성이 좋은
-                코드를 중점적으로 재사용성과 최적화를 고려하여 개발 중입니다.
+                일주일에 한번씩 스프린트로 진행중에 있습니다. 재사용성과
+                최적화를 중점적으로 고려하여 개발 중입니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -222,7 +222,7 @@ function App() {
                 <li>디자인 시스템에 사용될 input Component 개발</li>
                 <li>사이트에 사용되는 대부분의 element 컴포넌트화</li>
                 <li>React.lazy, Suspense 적용</li>
-                <li>My blog, modal, alert, postCard 등등 개발</li>
+                <li>My blog, profileEdit, modal, alert, postCard 등등 개발</li>
               </ul>
               <h5>
                 Tech Stack<span className="period-mark">.</span>

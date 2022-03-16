@@ -37,7 +37,7 @@ function App() {
                 Devfest [GDG X GDSC]
                 <span className="period-mark">.</span>
               </h4>
-              <span className={'role'}>개발자의 축제 DevFest.</span>
+              <span className={'role'}>team-member: frontend 3, backend 3</span>
               <span className={'time'}>
                 <time>2021. 10. 05 - 2021. 10. 26</time>
               </span>
@@ -91,6 +91,7 @@ function App() {
                 GDSC DJU Website
                 <span className="period-mark">.</span>
               </h4>
+              <span className={'role'}>team-member: frontend 1</span>
               <span className={'time'}>
                 <time>2021.10.29 - 현재</time>
               </span>
@@ -135,6 +136,9 @@ function App() {
                 Onboarding page
                 <span className="period-mark">.</span>
               </h4>
+              <span className={'role'}>
+                team-member: frontend 1, backend 1, designer 1
+              </span>
               <span className={'time'}>
                 <time>2021.12.05 - 2021.12.29</time>
               </span>
@@ -191,6 +195,9 @@ function App() {
                 GDSC DJU Tech blog
                 <span className="period-mark">.</span>
               </h4>
+              <span className={'role'}>
+                team-member: frontend 3, backend 3, designer 3
+              </span>
               <span className={'time'}>
                 <time>2022.02.08 - 현재</time>
               </span>
@@ -221,7 +228,7 @@ function App() {
                 <li>디자인 시스템에 사용될 input, button Component 개발</li>
                 <li>사이트에 사용되는 대부분의 element 컴포넌트화</li>
                 <li>React.lazy, Suspense 적용</li>
-                <li>My blog, profileEdit, modal, alert, postCard 등등 개발</li>
+                <li>My blog, profileEdit, modal, alert, postCard 등 개발</li>
               </ul>
               <h5>
                 Tech Stack<span className="period-mark">.</span>
@@ -249,7 +256,9 @@ function App() {
                 OZET
                 <span className="period-mark">.</span>
               </h4>
-              <span className={'role'}>미용사들을 위한 이력서 플랫폼.</span>
+              <span className={'role'}>
+                team-member: frontend 2, backend 2, android 2, ios 1, designer 3
+              </span>
               <span className={'time'}>
                 <time>2021. 11. 27 - 현재</time>
               </span>

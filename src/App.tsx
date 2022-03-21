@@ -389,6 +389,9 @@ function App() {
               커뮤니티의 전산화를 위해 사이트, 기술블로그, 관리자페이지를 기획,
               개발하였습니다.
             </li>
+            <li>
+              Notion과 Slack을 사용하여 프로젝트와 스터디의 효율을 높혔습니다.
+            </li>
           </ul>
         </div>
         <div className={'other'}>

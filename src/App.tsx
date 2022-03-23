@@ -108,6 +108,15 @@ function App() {
                 rel="noreferrer"
               >
                 SiteLink
+              </a>{' '}
+              <a
+                target="_blank"
+                href={
+                  'https://gdsc-dju--pr56-feature-0-2-0-rebuil-loe8eqjb.web.app/'
+                }
+                rel="noreferrer"
+              >
+                Redesign-Link
               </a>
               <h5>
                 Description<span className="period-mark">.</span>
@@ -117,7 +126,8 @@ function App() {
                 제작 이후 지원자가 50% 증가했습니다. 코드 리팩토링을 하며
                 React-lazy를 통한 최적화로 lighthouse 기준 performance 점수를
                 70점 향상시켰습니다. 꾸준히 사용하는 사이트이기 때문에
-                주기적으로 코드를 개선하고 기능을 추가하고 있습니다.
+                주기적으로 코드를 개선하고 기능을 추가하고 있으며 다음 모집을
+                대비하여 디자인을 수정 중에 있습니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -129,6 +139,7 @@ function App() {
                 <li>사이트에서 사용되는 color, font-size 디자인 에셋 제작</li>
                 <li>운영진용 Admin 제작</li>
                 <li>사이트 내에서 recruitForm으로 동아리 지원기능 개발</li>
+                <li>Github action으로 firebase Preview 세팅</li>
               </ul>
             </div>
             <div className={'project'}>

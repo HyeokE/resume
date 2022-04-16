@@ -136,10 +136,11 @@ function App() {
                 <li>코드 재사용성 증가를 위한 Component 분리</li>
                 <li>성능 개선을 위한 React-Lazy 적용</li>
                 <li>admin, main, onboard로 route 분리</li>
-                <li>사이트에서 사용되는 color, font-size 디자인 에셋 제작</li>
-                <li>운영진용 Admin 제작</li>
+                <li>사이트에서 사용되는 color, font-size 디자인 에셋 설정</li>
+                <li>운영진용 Admin 개발</li>
                 <li>사이트 내에서 recruitForm으로 동아리 지원기능 개발</li>
                 <li>Github action으로 firebase Preview 세팅</li>
+                <li>CRA에서 Without CRA로 변경 webpack, babel 세팅</li>
               </ul>
             </div>
             <div className={'project'}>

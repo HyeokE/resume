@@ -12,9 +12,9 @@ function App() {
         </h1>
         <p className="big-paragraph">
           웹 프론트개발자를 희망하며 사용자의 경험을 우선시하는 UI를 구현하는
-          것을 좋아합니다. 이론보단 실전으로 부딪히며 학습하는 것이 가장
-          효율적인 공부방법이라고 생각합니다. 주도적으로 업무를 진행할 수 있는
-          환경을 선호합니다.
+          것을 좋아합니다. 실전으로 부딪히며 학습하는 것이 가장 효율적인
+          공부방법이라고 생각합니다. 주도적으로 업무를 진행할 수 있는 환경을
+          선호합니다.
         </p>
       </section>
       <section>
@@ -111,9 +111,7 @@ function App() {
               </a>{' '}
               <a
                 target="_blank"
-                href={
-                  'https://gdsc-dju--pr56-feature-0-2-0-rebuil-loe8eqjb.web.app/'
-                }
+                href={'https://gdsc-dju--pr-260ebd15-nocdbdia.web.app/'}
                 rel="noreferrer"
               >
                 Redesign-Link
@@ -240,7 +238,9 @@ function App() {
                 <li>디자인 시스템에 사용될 input, button Component 개발</li>
                 <li>사이트에 사용되는 대부분의 element 컴포넌트화</li>
                 <li>React.lazy, Suspense 적용</li>
-                <li>My blog, profileEdit, modal, alert, postCard 등 개발</li>
+                <li>
+                  My blog, profileEdit, modal, alert, postCard, post 기능 개발
+                </li>
               </ul>
               <h5>
                 Tech Stack<span className="period-mark">.</span>

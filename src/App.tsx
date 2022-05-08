@@ -111,7 +111,9 @@ function App() {
               </a>{' '}
               <a
                 target="_blank"
-                href={'https://gdsc-dju--pr-260ebd15-nocdbdia.web.app/'}
+                href={
+                  'https://github.com/HyeokE/gdsc-dju-web/deployments/activity_log?environment=Preview'
+                }
                 rel="noreferrer"
               >
                 Redesign-Link

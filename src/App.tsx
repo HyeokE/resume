@@ -215,7 +215,9 @@ function App() {
               </span>
               <a
                 target="_blank"
-                href={'https://github.com/GDSC-Daejin/gdsc-dju-blog-fe'}
+                href={
+                  'https://github.com/GDSC-Daejin/gdsc-dju-blog-fe/tree/develop'
+                }
                 rel="noreferrer"
               >
                 Github

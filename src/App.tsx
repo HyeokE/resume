@@ -72,7 +72,7 @@ function App() {
               </h5>
               <ul>
                 <li>로그인, 로그아웃 관련 Modal 제작</li>
-                <li>유저 프로필, 프로필 수정 제작</li>
+                <li>유저 프로필, 프로필 수정 개발</li>
               </ul>
               <h5>
                 What did I learn<span className="period-mark">.</span>
@@ -116,7 +116,7 @@ function App() {
                 }
                 rel="noreferrer"
               >
-                Redesign-Link
+                Preview-Link
               </a>
               <h5>
                 Description<span className="period-mark">.</span>
@@ -125,8 +125,8 @@ function App() {
                 이전 프로젝트를 진행 후 1인 개발로 제작한 소개 사이트 입니다.
                 제작 이후 지원자가 50% 증가했습니다. 코드 리팩토링을 하며
                 React-lazy를 통한 최적화로 lighthouse 기준 performance 점수를
-                70점 향상시켰습니다. 주기적으로 성능를 개선하며 기능을 추가하고
-                있습니다.
+                92점까지 향상시켰습니다. 주기적으로 코드를 개선하고 기능을
+                추가하고 있으며 최근 디자인 변경을 진행했습니다.
               </p>
               <h5>
                 What did I do<span className="period-mark">.</span>
@@ -139,7 +139,11 @@ function App() {
                 <li>사이트 내에서 recruitForm으로 동아리 지원기능 개발</li>
                 <li>운영진용 Admin 지원자 대시보드 개발</li>
                 <li>Github action으로 firebase Preview 세팅</li>
-                <li>CRA에서 Without CRA로 변경 webpack, babel 세팅</li>
+                <li>
+                  webpack에서 vite으로 번들러 변경으로 빌드 속도 67% 상승
+                  (98.40s → 42.88s)
+                </li>
+                <li>safari 크로스브라우징 이슈 해결</li>
               </ul>
             </div>
             <div className={'project'}>
@@ -199,6 +203,50 @@ function App() {
               <p>
                 React, TypeScript, Styled-component, Recoil, SWR, axios,
                 Framer-motion, firebase Hosting, firebase storage
+              </p>
+            </div>
+            <div className={'project'}>
+              <h4>
+                GDSC DJU Admin
+                <span className="period-mark">.</span>
+              </h4>
+              <span className={'role'}>팀 구성: frontend 1</span>
+              <span className={'time'}>
+                <time>2022.02.08 - 현재</time>
+              </span>
+              <a
+                target="_blank"
+                href={
+                  'https://github.com/HyeokE/gdsc-dju-web/tree/master/src/pages/Admin'
+                }
+                rel="noreferrer"
+              >
+                Github
+              </a>
+
+              <h5>
+                Description<span className="period-mark">.</span>
+              </h5>
+              <p>
+                커뮤니티 규모가 커짐에 따라 지원자 관리 기능의 필요성을 느껴
+                시작하게 되었습니다. 추후 내부 멤버들의 정보도 열람 가능하도록
+                개발할 예정입니다.
+              </p>
+              <h5>
+                What did I do<span className="period-mark">.</span>
+              </h5>
+              <ul>
+                <li>지원자 관리 페이지, 지원자 세부 정보 열람 기능 개발</li>
+                <li>지원자 comment 기능 개발</li>
+                <li>지원자 합류과정에 따른 filter 기능 개발</li>
+                <li>이메일 로그 열람 및 이메일 전송 기능 개발</li>
+              </ul>
+              <h5>
+                Tech Stack<span className="period-mark">.</span>
+              </h5>
+              <p>
+                React, TypeScript, Styled-component, Framer-motion, firebase
+                Hosting, firestore, emailjs
               </p>
             </div>
             <div className={'project'}>

@@ -212,7 +212,7 @@ function App() {
               </h4>
               <span className={'role'}>팀 구성: frontend 1</span>
               <span className={'time'}>
-                <time>2022.02.08 - 현재</time>
+                <time>2022.05.25 - 현재</time>
               </span>
               <a
                 target="_blank"

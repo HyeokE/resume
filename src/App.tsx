@@ -428,9 +428,6 @@ function App() {
             </a>{' '}
             Daejin University 챕터의 1기 리드를 맡고 있습니다.
           </p>
-          <h5>
-            What did I do<span className="period-mark">.</span>
-          </h5>
           <ul>
             <li>
               영어 닉네임을 도입하여 학번, 나이, 경력에 상관없이 수평적 문화를
@@ -459,12 +456,16 @@ function App() {
         </div>
         <div className={'other'}>
           <h3>
-            Daejin University<span className="period-mark">.</span>
+            GDSC Career, 하루간 구글을 무료체험 해보세요.{' '}
+            <span className="period-mark">.</span>
           </h3>
-          <span className={'role'}>휴먼IT학부•로봇공학전공 (휴학)</span>
-          <span className={'time'}>
-            <time>2019. 03. - 현재</time>
-          </span>
+          <span className={'role'}>GDSC Daejin Lead</span>
+          <p>
+            <a href={'https://festa.io/events/2wPFLu4U2aoiPxV27DrgM2'}>
+              구글러와 함께하는 커리어 세션
+            </a>{' '}
+            기획 및 운영했습니다.
+          </p>
         </div>
       </section>
       <section>

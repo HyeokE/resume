@@ -109,15 +109,6 @@ function App() {
               >
                 SiteLink
               </a>{' '}
-              <a
-                target="_blank"
-                href={
-                  'https://github.com/HyeokE/gdsc-dju-web/deployments/activity_log?environment=Preview'
-                }
-                rel="noreferrer"
-              >
-                Preview-Link
-              </a>
               <h5>
                 Description<span className="period-mark">.</span>
               </h5>
@@ -134,10 +125,10 @@ function App() {
               <ul>
                 <li>코드 재사용성 증가를 위한 Component 분리</li>
                 <li>성능 개선을 위한 React-Lazy 적용</li>
-
                 <li>사이트에서 사용되는 color, font-size 디자인 에셋 설정</li>
-                <li>사이트 내에서 recruitForm으로 동아리 지원기능 개발</li>
-                <li>Github action으로 firebase Preview 세팅</li>
+                <li>사이트 내 동아리 지원기능 개발</li>
+                <li>사용자 세팅에 따른 다크모드 적용 개발</li>
+                <li>Github Action firebase Hosting/Preview 세팅 </li>
                 <li>
                   webpack → vite 번들러 변경으로 빌드 속도 67% 상승 (98.40s →
                   42.88s)
@@ -145,7 +136,7 @@ function App() {
                 <li>safari 크로스브라우징 이슈 해결</li>
               </ul>
               <ul>
-                <li>Onboarding page 개발 </li>
+                <li>Onboarding page 개발</li>
                 <li>html2canvas를 이용한 boarding pass 저장기능 제작</li>
                 <li>Yup과 formik을 이용한 nickname validation</li>
                 <li>Framer-Motion을 이용한 모션 제안 및 추가</li>
@@ -382,6 +373,15 @@ function App() {
           </p>
           <ul>
             <li>
+              동아리 내부에서 사용하는 서비스(
+              <a href={'https://gdsc-dju.web.app/'}>소개 사이트</a> {', '}
+              관리자 사이트{', '}
+              <a href={'https://gdsc-dju-shared.web.app/'}>이벤트 사이트</a>
+              {', '}
+              <a href={'https://gdsc-dju-blog.web.app/'}>기술 블로그</a>
+              )를 개발했습니다.
+            </li>
+            <li>
               영어 닉네임을 도입하여 학번, 나이, 경력에 상관없이 수평적 문화를
               조성하도록 노력했습니다.
             </li>
@@ -398,10 +398,6 @@ function App() {
               피력할 수 있는 환경을 조성했습니다.
             </li>
             <li>
-              커뮤니티의 전산화를 위해 사이트, 기술블로그, 관리자페이지를 기획,
-              개발했습니다.
-            </li>
-            <li>
               Notion과 Slack을 사용하여 프로젝트와 스터디의 효율을 높혔습니다.
             </li>
           </ul>
@@ -415,8 +411,8 @@ function App() {
           <p>
             <a href={'https://festa.io/events/2wPFLu4U2aoiPxV27DrgM2'}>
               구글러와 함께하는 커리어 세션
-            </a>{' '}
-            기획 및 운영했습니다.
+            </a>
+            을 기획 및 운영했습니다.
           </p>
         </div>
       </section>

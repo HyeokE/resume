@@ -134,10 +134,9 @@ function App() {
               <ul>
                 <li>코드 재사용성 증가를 위한 Component 분리</li>
                 <li>성능 개선을 위한 React-Lazy 적용</li>
-                <li>admin, main, onboard로 route 분리</li>
+
                 <li>사이트에서 사용되는 color, font-size 디자인 에셋 설정</li>
                 <li>사이트 내에서 recruitForm으로 동아리 지원기능 개발</li>
-                <li>운영진용 Admin 지원자 대시보드 개발</li>
                 <li>Github action으로 firebase Preview 세팅</li>
                 <li>
                   webpack → vite 번들러 변경으로 빌드 속도 67% 상승 (98.40s →
@@ -145,47 +144,8 @@ function App() {
                 </li>
                 <li>safari 크로스브라우징 이슈 해결</li>
               </ul>
-            </div>
-            <div className={'project'}>
-              <h4>
-                Onboarding page
-                <span className="period-mark">.</span>
-              </h4>
-              <span className={'role'}>
-                팀 구성: frontend 1, backend 1, designer 1
-              </span>
-              <span className={'time'}>
-                <time>2021.12.05 - 2021.12.29</time>
-              </span>
-              <a
-                target="_blank"
-                href={
-                  'https://github.com/HyeokE/gdsc-dju-web-ts/tree/master/src/pages/OnBoard'
-                }
-                rel="noreferrer"
-              >
-                Github
-              </a>{' '}
-              <a
-                target="_blank"
-                href={'https://gdsc-dju.web.app/onboard'}
-                rel="noreferrer"
-              >
-                SiteLink
-              </a>
-              <h5>
-                Description<span className="period-mark">.</span>
-              </h5>
-              <p>
-                소개페이지에 onboarding route로 신규멤버의 정보를 받기 위한
-                Onboarding 페이지입니다. 신규 멤버들에게 여행하는 경험을 주기
-                위해 모션을 먼저 개발후 제안하는 방향으로 진행했습니다.
-              </p>
-              <h5>
-                What did I do<span className="period-mark">.</span>
-              </h5>
               <ul>
-                <li>전반적인 페이지 제작</li>
+                <li>Onboarding page 개발 </li>
                 <li>html2canvas를 이용한 boarding pass 저장기능 제작</li>
                 <li>Yup과 formik을 이용한 nickname validation</li>
                 <li>Framer-Motion을 이용한 모션 제안 및 추가</li>
@@ -197,13 +157,6 @@ function App() {
                 <li>CORS 오류</li>
                 <li>무료 도메인 이슈</li>
               </ul>
-              <h5>
-                Tech Stack<span className="period-mark">.</span>
-              </h5>
-              <p>
-                React, TypeScript, Styled-component, Recoil, SWR, axios,
-                Framer-motion, firebase Hosting, firebase storage
-              </p>
             </div>
             <div className={'project'}>
               <h4>
@@ -212,7 +165,7 @@ function App() {
               </h4>
               <span className={'role'}>팀 구성: frontend 1</span>
               <span className={'time'}>
-                <time>2022.05.25 - 현재</time>
+                <time>2022.05.25 - 2022.07.04</time>
               </span>
               <a
                 target="_blank"
@@ -284,8 +237,7 @@ function App() {
                 What did I do<span className="period-mark">.</span>
               </h5>
               <ul>
-                <li>circleci로 firebase deploy 세팅</li>
-                <li>github action으로 firebase preview 세팅</li>
+                <li>Github Action firebase deploy/Preview 세팅</li>
                 <li>디자인 시스템에 사용될 input, button Component 개발</li>
                 <li>사이트에 사용되는 대부분의 element 컴포넌트화</li>
                 <li>React.lazy, Suspense 적용</li>
@@ -297,7 +249,7 @@ function App() {
                 Tech Stack<span className="period-mark">.</span>
               </h5>
               <p>
-                React, TypeScript, Styled-component, Recoil, SWR, axios,
+                React, TypeScript, Styled-component, Recoil, React-Query, axios,
                 Framer-motion, firebase Hosting, Giscus, Toast Editor
               </p>
             </div>
@@ -417,7 +369,7 @@ function App() {
           <h3>
             GDSC Korea<span className="period-mark">.</span>
           </h3>
-          <span className={'role'}>Daejin University Lead</span>
+          <span className={'role'}>GDSC Daejin University Lead</span>
           <span className={'time'}>
             <time>2021. 07. - 현재</time>
           </span>
@@ -456,7 +408,7 @@ function App() {
         </div>
         <div className={'other'}>
           <h3>
-            GDSC Career, 하루간 구글을 무료체험 해보세요.{' '}
+            GDSC Career, 하루간 구글을 무료체험 해보세요
             <span className="period-mark">.</span>
           </h3>
           <span className={'role'}>GDSC Daejin Lead</span>
@@ -468,23 +420,23 @@ function App() {
           </p>
         </div>
       </section>
-      <section>
-        <div className={'other'}>
-          <h3>
-            Language<span className="period-mark">.</span>
-          </h3>
-          <h5>
-            English<span className="period-mark">.</span>
-          </h5>
-          <span className={'role'}>Limited Working Proficiency</span>
-        </div>
-        <div className={'other'}>
-          <h5>
-            Korean<span className="period-mark">.</span>
-          </h5>
-          <span className={'role'}>Native</span>
-        </div>
-      </section>
+      {/*<section>*/}
+      {/*  <div className={'other'}>*/}
+      {/*    <h3>*/}
+      {/*      Language<span className="period-mark">.</span>*/}
+      {/*    </h3>*/}
+      {/*    <h5>*/}
+      {/*      English<span className="period-mark">.</span>*/}
+      {/*    </h5>*/}
+      {/*    <span className={'role'}>Limited Working Proficiency</span>*/}
+      {/*  </div>*/}
+      {/*  <div className={'other'}>*/}
+      {/*    <h5>*/}
+      {/*      Korean<span className="period-mark">.</span>*/}
+      {/*    </h5>*/}
+      {/*    <span className={'role'}>Native</span>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
       <section>
         <h2>
           Contact<span className="period-mark">.</span>

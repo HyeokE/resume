@@ -147,6 +147,7 @@ function App() {
               <ul>
                 <li>CORS 오류</li>
                 <li>무료 도메인 이슈</li>
+                <li>font-family 이슈</li>
               </ul>
             </div>
             <div className={'project'}>

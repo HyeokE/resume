@@ -17,8 +17,6 @@ export const workExperience: ProjectList = [
           </>
         ),
         whatYouDid: [
-          '초기 컴포넌트 개발 및 문서와 Storybook등 환경 구성',
-          'Rollup 설정으로 번들 사이즈 20% 개선',
           'Storybook을 이용한 컴포넌트 개발 및 문서화',
           'Github Action을 이용한 배포 자동화 및 버전관리',
         ],
@@ -35,17 +33,18 @@ export const workExperience: ProjectList = [
             <StyledA href={'https://dashboard.hadaworks.com/auth/signup'}>
               대시보드 페이지
             </StyledA>
-            를 개발했습니다. 서비스의 유지보수를 비롯한 비즈니스 요구에 맞는
-            여러 기능을 개발했습니다.
+            를 개발했습니다. 서비스의 유지보수를 비롯하여 여러 기능을
+            개발했습니다.
           </>
         ),
         whatYouDid: [
-          'yarn berry 도입으로 모노레포 의존성 개선',
-          '프로젝트 eslint 규칙 정리 및 적용',
-          '시설 상세 페이지 내 점검 내역 조회 및 수정 기능 개발',
-          '시설 태그 기능 개발',
+          '시설 페이지 내 시설 정보 열람, 점검 내역 조회, 수정, 점검표 조회 기능 개발',
+          '시설 태그, 옵션 기능 개발',
           '시설 필터, 점검표 필터 개편',
           '결제 페이지 내 요금제 정보, 정산담당자, 결제 내역 조회 기능 개발',
+          'yarn berry 도입으로 패키지 의존성 개선',
+          '프로젝트 eslint/prettier 규칙 정리 및 적용',
+          '코드 스타일 문서 작성',
         ],
         techStack:
           'React, TypeScript, @emotion, Redux, Redux-Toolkit, React-Query, HDS, mui',

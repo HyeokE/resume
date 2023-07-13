@@ -128,7 +128,7 @@ export const projectData: ProjectList = [
           '지원자 관리 페이지, 지원서 Modal 개발',
           '지원서에 대한 comment 기능 개발',
           '지원자 합류과정에 따른 filter 기능 개발',
-          '이메일 로그 열람 및 이메일 자동 전송 기능 개발',
+          '이메일 로그 열람 및 email.js를 활용한 이메일 자동 전송 기능 개발',
         ],
         techStack:
           'Yarn Berry, React, TypeScript, Styled-component, Framer-motion, firebase Hosting, firestore, emailjs, React-Query, Jotai',

@@ -18,7 +18,7 @@ export const workExperience: ProjectList = [
           </>
         ),
         whatYouDid: ['공통 디자인 시스템 제안'],
-        techStack: '예상 스택 (Turborepo, Yarn Berry, TypeScript, React)',
+        techStack: '예상 스택 (Turborepo, Yarn Berry, Changesets)',
       },
       {
         name: 'Hada Design System',
@@ -37,12 +37,13 @@ export const workExperience: ProjectList = [
           'Storybook, React, TypeScript, @emotion, framer-motion, Rollup',
       },
       {
-        name: 'Hada 시설 내 태그, 태그옵션 기능',
+        name: 'Hada 시설 태그, 태그옵션 기능',
         duration: '2023.06 - 2023.07',
         description: (
           <>
             시설 내 태그와 해시태그 옵션 기능을 개발했습니다. 유저 입장에서
-            이해하기 어렵다고 생각되는 부분은 PM과 협의하여 기능을 개편했습니다.
+            이해하기 어렵다고 생각되는 부분은 PM과 협의하여 기획을 수정하며
+            개발했습니다.
           </>
         ),
         whatYouDid: [
@@ -64,8 +65,8 @@ export const workExperience: ProjectList = [
             <StyledA href={'https://dashboard.hadaworks.com/auth/signup'}>
               대시보드 페이지
             </StyledA>
-            를 개발했습니다. 서비스의 유지보수를 비롯하여 여러 기능을
-            개발했습니다.
+            를 개발했습니다. 서비스의 유지보수를 비롯하여 요구사항에 맞는 여러
+            기능을 개발했습니다.
           </>
         ),
         whatYouDid: [

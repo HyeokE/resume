@@ -13,8 +13,8 @@ export interface ProjectProps {
       link: string;
     }[];
     description?: ReactNode;
-    whatYouLearn?: string[];
-    whatYouDid: string[];
+    whatYouLearn?: ReactNode[];
+    whatYouDid: ReactNode[];
     techStack: string;
   }[];
 }

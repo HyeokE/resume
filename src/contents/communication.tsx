@@ -1,6 +1,9 @@
+import { ReactNode } from 'react';
+import { StyledA } from '../styled';
+
 export interface CommunicationProps {
   title: string;
-  content: string[];
+  content: ReactNode[];
 }
 
 export type CommunicationList = CommunicationProps[];
@@ -11,7 +14,15 @@ export const communicationData: CommunicationList = [
     content: [
       'Framer-motion을 사용하여 UI 및 애니메이션 구현을 즐깁니다. 꼭 애니메이션이 디자인에 포함되어 있지 않아도 선행해서 애니메이션을 구현하거나 제안하는 편입니다.',
       '프로젝트에 필요하다면 능숙하지 않아도 학습하여 최적의 결과를 낼 수 있도록 노력합니다.',
-      '커뮤니티 혹은 팀의 프로세스 및 문화를 개선하거나 바꾸려는 시도를 적극적으로 하며 아이디어의 수용이 빠릅니다.',
+      <>
+        커뮤니티 혹은 팀의 프로세스 및 문화를{' '}
+        <StyledA
+          href={'https://hyeok.dev/22.11.02%20%ED%9A%8C%EA%B3%A0%EB%A1%9D'}
+        >
+          개선하거나 바꾸려는 시도
+        </StyledA>
+        를 적극적으로 하며 아이디어의 수용이 빠릅니다.
+      </>,
       '직위 및 포지션에 관계없이 적극적으로 생각을 피력합니다.',
       '커뮤니케이션은 적은 것보다 많은게 좋다고 생각합니다.',
       '프로덕트의 기획 회의부터 참여하는 것을 선호합니다.',

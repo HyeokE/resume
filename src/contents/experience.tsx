@@ -22,7 +22,7 @@ export const experienceData: ExperienceType = {
       time: '2023.03 - 현재',
       description: (
         <>
-          구글의 웹 기술 기반 개발자 커뮤니티인
+          구글의 웹 기술 기반 개발자 커뮤니티인{' '}
           <StyledA href={'https://gdg.community.dev/gdg-korea-webtech/'}>
             GDG Korea WebTech
           </StyledA>

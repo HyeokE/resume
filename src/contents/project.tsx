@@ -45,16 +45,11 @@ export const projectData: ProjectList = [
         whatYouDid: [
           'webpack → vite 번들러 변경으로 빌드 속도 67% 상승 (98.40s → 42.88s)',
           '성능 개선을 위한 React-Lazy 적용',
-          '사이트에서 사용되는 color, font-size 디자인 에셋 설정',
           'SVG 모션 사파리 크로스브라우징 이슈 해결',
           '포지션 별 지원하기 기능 개발',
-          'react-hook-form을 이용한 validation',
           '사용자 세팅에 따른 다크모드 적용 개발',
           'Github Action firebase Hosting/Preview 세팅',
-          '코드 재사용성 증가를 위한 Component 분리',
-          'Atmoic Design 패턴',
-          'Onboarding page 개발',
-          'html2canvas를 이용한 boarding pass 저장기능 제작',
+          'Atmoic Design 패턴 적용',
         ],
         whatYouLearn: ['CORS 오류', '무료 도메인 이슈', 'font-family 이슈'],
         techStack:
@@ -78,7 +73,6 @@ export const projectData: ProjectList = [
         ],
         whatYouDid: [
           'CI/CD 세팅',
-          '디자인 패턴 제안 및 적용',
           '내 블로그, 스크랩, 프로필 수정 페이지 개발',
           '글 작성, 수정 페이지 리팩토링',
           'Alert, Modal 개발',
@@ -92,7 +86,7 @@ export const projectData: ProjectList = [
         role: 'frontend 1, designer 1',
         duration: '2022.8 - 현재',
         description:
-          '중복을 줄이기 위해 웹 서비스에서 자주 사용되는 컴포넌트와 디자인 에셋들을 라이브러리로 만들었습니다. Rollup 도입으로 약 40%의 용량 감소를 이뤘습니다. ' +
+          '웹 서비스에서 자주 사용되는 컴포넌트와 디자인 에셋들을 라이브러리로 만들었습니다. Rollup 도입으로 약 40%의 용량 감소를 이뤘습니다. ' +
           'Styled-Components 기반 라이브러리의 한계를 느끼고 CSS 변수를 사용하는 방식으로 변경했습니다.',
         link: [
           {

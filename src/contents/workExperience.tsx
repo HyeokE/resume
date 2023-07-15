@@ -37,12 +37,12 @@ export const workExperience: ProjectList = [
           'Storybook, React, TypeScript, @emotion, framer-motion, Rollup',
       },
       {
-        name: 'Hada 시설 상세 데이터 추가',
+        name: 'Hada 시설 내 태그, 태그옵션 기능',
         duration: '2023.06 - 2023.07',
         description: (
           <>
-            시설 상세 데이터에 태그와 해시태그 옵션 기능을 개발했습니다. 유저
-            입장에서 이해하기 기능이 있어 PM과 협의하여 기능을 개편했습니다.
+            시설 내 태그와 해시태그 옵션 기능을 개발했습니다. 유저 입장에서
+            이해하기 어렵다고 생각되는 부분은 PM과 협의하여 기능을 개편했습니다.
           </>
         ),
         whatYouDid: [
@@ -75,6 +75,7 @@ export const workExperience: ProjectList = [
           '시설 페이지 내 시설 정보 열람, 점검 내역 조회, 수정, 점검표 조회 기능 개발',
           '대시보드 필터 UI 및 기능 개편',
           '결제 페이지 내 요금제 정보, 정산담당자, 결제 내역 조회 기능 개발',
+          '기존 mui로 개발된 컴포넌트를 HDS로 변경',
         ],
         techStack:
           'React, TypeScript, @emotion, Redux, Redux-Toolkit, React-Query, HDS, mui',

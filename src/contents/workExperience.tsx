@@ -54,7 +54,6 @@ export const workExperience: ProjectList = [
           'yarn berry 도입으로 모노레포 패키지 의존성 개선',
           '프로젝트 eslint/prettier 규칙 정리 및 적용',
           '코드 스타일 문서 작성',
-          '기존 mui로 개발된 컴포넌트를 HDS로 변경',
           '시설 태그, 태그 옵션 기능 개발',
           '시설 페이지 내 시설 정보 열람, 점검 내역 조회, 수정, 점검표 조회 기능 개발',
           '대시보드 필터 UI 및 기능 개편',

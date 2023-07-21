@@ -21,6 +21,7 @@ export const workExperience: ProjectList = [
         whatYouDid: [
           'Storybook을 이용한 컴포넌트 개발 및 문서화',
           'Github Action을 이용한 배포 자동화 및 버전관리',
+          'SVG 아이콘 컴포넌트 변환 자동화',
           <>
             개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
             <StyledA

@@ -35,7 +35,7 @@ export const projectData: ProjectList = [
         link: [
           {
             name: 'Github',
-            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master/packages/gdsc-dju-web',
+            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master',
           },
           {
             name: 'Website',
@@ -64,7 +64,7 @@ export const projectData: ProjectList = [
         link: [
           {
             name: 'Github',
-            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master/packages/gdsc-dju-blog',
+            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master',
           },
           {
             name: 'Website',
@@ -115,7 +115,7 @@ export const projectData: ProjectList = [
         link: [
           {
             name: 'Github',
-            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master/packages/gdsc-dju-admin',
+            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master',
           },
         ],
         whatYouDid: [

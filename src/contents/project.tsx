@@ -51,7 +51,7 @@ export const projectData: ProjectList = [
           'Github Action firebase Hosting/Preview 세팅',
           'Atmoic Design 패턴 적용',
         ],
-        whatYouLearn: ['CORS 오류', '무료 도메인 이슈', 'font-family 이슈'],
+        whatYouLearn: ['CORS 오류', '무료 도메인 이슈'],
         techStack:
           'Yarn Berry, React, TypeScript, Styled-component, Recoil, Framer-motion, firebase Hosting, @gdsc-dju/styled-components',
       },

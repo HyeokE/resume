@@ -8,6 +8,32 @@ export const workExperience: ProjectList = [
     time: '2023.01 - 현재',
     projects: [
       {
+        name: 'Hada Dashboard',
+        duration: '2023.01 - 현재',
+        description: (
+          <>
+            현장 시설 관리 서비스{' '}
+            <StyledA href={'https://www.hadaworks.com'}>하다</StyledA>의{' '}
+            <StyledA href={'https://dashboard.hadaworks.com/auth/signup'}>
+              대시보드 페이지
+            </StyledA>
+            를 개발했습니다. 유지보수를 비롯해 비즈니스의 요구에 맞는 다양한
+            기능을 개발했습니다.
+          </>
+        ),
+        whatYouDid: [
+          '명세되지 않은 라이브러리를 참조하는 이슈를 yarn berry 도입으로 해결했습니다.',
+          '코드 스타일의 일관성을 위해 공통 lint 규칙을 설정하고 코드 컨벤션 문서를 작성했습니다.',
+          '주간 프론트엔드 회의를 주관하며 코드리뷰를 도입했습니다.',
+          '시설 태그, 태그 옵션 기능 개발',
+          '시설 페이지 내 시설 정보 열람, 점검 내역 조회, 수정, 점검표 조회 기능 개발',
+          '대시보드 필터 UI 및 기능 개편',
+          '결제 페이지 내 요금제 정보, 정산담당자, 결제 내역 조회 기능 개발',
+        ],
+        techStack:
+          'React, TypeScript, @emotion, Redux, Redux-Toolkit, React-Query, HDS, mui',
+      },
+      {
         name: 'Hada Design System',
         duration: '2023.02 - 현재',
         description: (
@@ -35,32 +61,6 @@ export const workExperience: ProjectList = [
         ],
         techStack:
           'Storybook, React, TypeScript, @emotion, framer-motion, Rollup',
-      },
-      {
-        name: 'Hada Dashboard',
-        duration: '2023.01 - 현재',
-        description: (
-          <>
-            현장 시설 관리 서비스{' '}
-            <StyledA href={'https://www.hadaworks.com'}>하다</StyledA>의{' '}
-            <StyledA href={'https://dashboard.hadaworks.com/auth/signup'}>
-              대시보드 페이지
-            </StyledA>
-            를 개발했습니다. 유지보수를 비롯해 비즈니스의 요구에 맞는 다양한
-            기능을 개발했습니다.
-          </>
-        ),
-        whatYouDid: [
-          '명세되지 않은 라이브러리를 참조하는 이슈를 yarn berry 도입으로 해결했습니다.',
-          '코드 스타일의 일관성을 위해 공통 lint 규칙을 설정하고 코드 컨벤션 문서를 작성했습니다.',
-          '주간 프론트엔드 회의를 주관하며 코드리뷰를 도입했습니다.',
-          '시설 태그, 태그 옵션 기능 개발',
-          '시설 페이지 내 시설 정보 열람, 점검 내역 조회, 수정, 점검표 조회 기능 개발',
-          '대시보드 필터 UI 및 기능 개편',
-          '결제 페이지 내 요금제 정보, 정산담당자, 결제 내역 조회 기능 개발',
-        ],
-        techStack:
-          'React, TypeScript, @emotion, Redux, Redux-Toolkit, React-Query, HDS, mui',
       },
     ],
   },

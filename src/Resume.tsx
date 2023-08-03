@@ -66,6 +66,7 @@ const Resume = () => {
                 깃허브
               </StyledA>
             </StyledLi>
+            <StyledLi>현재 산업기능요원(보충역)으로 복무 중입니다.</StyledLi>
           </StyledUl>
         </Other>
       </StyledSection>

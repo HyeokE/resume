@@ -17,6 +17,7 @@ export const communicationData: CommunicationList = [
       <>
         커뮤니티 혹은 팀의 프로세스 및 문화를{' '}
         <StyledA
+          target="_blank"
           href={'https://hyeok.dev/22.11.02%20%ED%9A%8C%EA%B3%A0%EB%A1%9D'}
         >
           개선하거나 바꾸려는 시도

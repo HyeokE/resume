@@ -24,6 +24,7 @@ export const workExperience: ProjectList = [
           <>
             개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
             <StyledA
+              target="_blank"
               href={
                 'https://hyeok.dev/Polymorphic%ED%95%9C%20React%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0#1c65ea3622184940a5367893937d503f'
               }
@@ -41,8 +42,14 @@ export const workExperience: ProjectList = [
         description: (
           <>
             현장 시설 관리 서비스{' '}
-            <StyledA href={'https://www.hadaworks.com'}>하다</StyledA>의{' '}
-            <StyledA href={'https://dashboard.hadaworks.com/auth/signup'}>
+            <StyledA target="_blank" href={'https://www.hadaworks.com'}>
+              하다
+            </StyledA>
+            의{' '}
+            <StyledA
+              target="_blank"
+              href={'https://dashboard.hadaworks.com/auth/signup'}
+            >
               대시보드 페이지
             </StyledA>
             를 개발했습니다. 유지보수를 비롯해 비즈니스의 요구에 맞는 다양한

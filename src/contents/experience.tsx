@@ -23,7 +23,10 @@ export const experienceData: ExperienceType = {
       description: (
         <>
           구글의 웹 기술 기반 개발자 커뮤니티인{' '}
-          <StyledA href={'https://gdg.community.dev/gdg-korea-webtech/'}>
+          <StyledA
+            target="_blank"
+            href={'https://gdg.community.dev/gdg-korea-webtech/'}
+          >
             GDG Korea WebTech
           </StyledA>
           의 Organizer를 맡고 있습니다.
@@ -38,11 +41,15 @@ export const experienceData: ExperienceType = {
         <>
           {' '}
           Google Developers에서 지원하는{' '}
-          <StyledA href={'https://sites.google.com/view/gdeveloperskorea/gdsc'}>
+          <StyledA
+            target="_blank"
+            href={'https://sites.google.com/view/gdeveloperskorea/gdsc'}
+          >
             GoogleDSC
           </StyledA>
           Daejin University 챕터의
           <StyledA
+            target="_blank"
             href={
               'https://drive.google.com/file/d/1SNGRgxPexq2h2BCc1RPE7P_Pa2hiHCli/view'
             }
@@ -57,6 +64,7 @@ export const experienceData: ExperienceType = {
         <>
           GDSC KOREA 2021 - 2022{' '}
           <StyledA
+            target="_blank"
             href={
               'https://drive.google.com/file/d/1xMd5Gr5jbQ83-ahmh6QNH2v-2zHvMVxz/view'
             }
@@ -77,7 +85,7 @@ export const experienceData: ExperienceType = {
       time: '2022. 07. 02',
       description: (
         <>
-          <StyledA href={'https://festa.io/events/2397'}>
+          <StyledA target="_blank" href={'https://festa.io/events/2397'}>
             구글러와 함께하는 커리어 세션
           </StyledA>
           을 기획 및 운영했습니다.

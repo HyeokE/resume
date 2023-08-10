@@ -33,7 +33,7 @@ export const experienceData: ExperienceType = {
     {
       title: 'GoogleDSC Korea',
       role: 'Lead',
-      time: '2021.08 - 2023.07(예정)',
+      time: '2021.08 - 2023.07',
       description: (
         <>
           {' '}

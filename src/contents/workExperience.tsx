@@ -26,7 +26,7 @@ export const workExperience: ProjectList = [
             <StyledA
               target="_blank"
               href={
-                'https://hyeok.dev/Polymorphic%ED%95%9C%20React%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0#1c65ea3622184940a5367893937d503f'
+                'https://hyeok.dev/Polymorphic%ED%95%9C%20React%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0'
               }
             >
               Polymorphic 컴포넌트 개발

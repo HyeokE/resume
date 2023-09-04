@@ -55,36 +55,36 @@ export const projectData: ProjectList = [
         techStack:
           'Yarn Berry, React, TypeScript, Styled-component, Recoil, Framer-motion, firebase Hosting, @gdsc-dju/styled-components',
       },
-      {
-        name: 'Tech blog',
-        role: 'frontend 3, backend 3, designer 3',
-        duration: '2022.02.08 - 중단',
-        description:
-          'GDSC DJU 내부 사용 목적으로 개발된 기술 블로그입니다. 프로젝트를 처음 참여하시는 멤버 분들을 고려하여 프로젝트를 진행했습니다.',
-        link: [
-          {
-            name: 'Github',
-            link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master',
-          },
-          {
-            name: 'Website',
-            link: 'https://blog.gdsc-dju.com',
-          },
-        ],
-        whatYouDid: [
-          'CI/CD 세팅',
-          '내 블로그, 스크랩, 프로필 수정 페이지 개발',
-          '글 작성, 수정 페이지 리팩토링',
-          'Alert, Modal 개발',
-        ],
-
-        techStack:
-          'Yarn Berry, React, TypeScript, Styled-component, Recoil, React-Query, Framer-motion, firebase Hosting',
-      },
+      // {
+      //   name: 'Tech blog',
+      //   role: 'frontend 3, backend 3, designer 3',
+      //   duration: '2022.02.08 - 중단',
+      //   description:
+      //     'GDSC DJU 내부 사용 목적으로 개발된 기술 블로그입니다. 프로젝트를 처음 참여하시는 멤버 분들을 고려하여 프로젝트를 진행했습니다.',
+      //   link: [
+      //     {
+      //       name: 'Github',
+      //       link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master',
+      //     },
+      //     {
+      //       name: 'Website',
+      //       link: 'https://blog.gdsc-dju.com',
+      //     },
+      //   ],
+      //   whatYouDid: [
+      //     'CI/CD 세팅',
+      //     '내 블로그, 스크랩, 프로필 수정 페이지 개발',
+      //     '글 작성, 수정 페이지 리팩토링',
+      //     'Alert, Modal 개발',
+      //   ],
+      //
+      //   techStack:
+      //     'Yarn Berry, React, TypeScript, Styled-component, Recoil, React-Query, Framer-motion, firebase Hosting',
+      // },
       {
         name: 'GDS',
         role: 'frontend 1, designer 1',
-        duration: '2022.8 - 현재',
+        duration: '2022.8 - 2022.12',
         description:
           '웹 서비스에서 자주 사용되는 컴포넌트와 디자인 에셋들을 라이브러리로 만들었습니다. Rollup 도입으로 약 40%의 용량 감소를 이뤘습니다. ' +
           'Styled-Components 기반 라이브러리의 한계를 느끼고 CSS 변수를 사용하는 방식으로 변경했습니다.',

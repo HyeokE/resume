@@ -24,7 +24,7 @@ export const projectData: ProjectList = [
   {
     title: 'Google DSC Korea',
     role: 'Frontend Developer',
-    time: '2021.08 - 현재',
+    time: '2021.08 - 2023.07',
     projects: [
       {
         name: 'GDSC DJU Web',

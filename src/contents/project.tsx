@@ -31,7 +31,7 @@ export const projectData: ProjectList = [
         role: 'frontend 1',
         duration: '2021.10.29 - 2021.12.27',
         description:
-          '1인 개발로 제작한 커뮤니티 소개 및 지원사이트 입니다. 제작 이후 지원자 수가 50% 증가했습니다. 코드 리팩토링을 진행하며 React-lazy를 통한 최적화로 lighthouse 기준 performance 점수를 92점까지 향상시켰습니다. 내부 서비스들을 모노레포로 관리하고 있습니다.',
+          '1인 개발로 제작한 커뮤니티 소개 및 지원사이트 입니다. 제작 이후 지원자 수가 50% 증가했습니다. 코드 리팩토링을 진행하며 React-lazy를 통한 최적화로 lighthouse 기준 performance 점수를 92점까지 향상시켰습니다. 내부 서비스들을 모노레포로 관리했습니다.',
         link: [
           {
             name: 'Github',

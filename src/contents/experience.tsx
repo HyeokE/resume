@@ -57,7 +57,7 @@ export const experienceData: ExperienceType = {
             {' '}
             1기
           </StyledA>
-          와 2기 리드를 맡고 있습니다.
+          와 2기 리드를 맡아 운영했습니다.
         </>
       ),
       content: [

@@ -8,19 +8,18 @@ export const workExperience: ProjectList = [
     time: '2023.01 - 현재',
     projects: [
       {
-        name: 'Hada Design System',
-        duration: '2023.02 - 현재',
+        name: 'Shoplflow',
+        duration: '2023.07 - 현재',
         description: (
           <>
-            개발자/디자이너에게 좋은 사용성을 제공하기 위해 props 옵션 네이밍
-            통일, 컴포넌트 구조를 상의하며 개발했습니다. 현재 하다, 샤플 디자인
-            시스템 통합을 준비 중에 있습니다.
+            샤플, 하다 통합 디자인 시스템인 Shoplflow를 리드하여 개발했습니다.
+            style, lint, util 등 사내에서 공통으로 사용할 패키지의 환경을
+            구축했으며 개발자가 코드 외에 신경쓰지 않게 하는 환경을 목표로
+            버전관리, 테스트, 배포 등의 작업을 자동화했습니다.
           </>
         ),
         whatYouDid: [
-          'Storybook을 이용한 컴포넌트 개발 및 코드 컨벤션 문서화',
-          '커뮤니케이션 비용을 줄이기 위한 Github Action을 이용한 배포 자동화 및 버전관리',
-          '개발자의 리소스를 줄이기 위한 SVG 아이콘 컴포넌트 변환 자동화',
+          'Figma에서 디자인 토큰 편집시 변경사항이 반영된 PR이 생성되도록 CI/CD를 구축',
           <>
             개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
             <StyledA
@@ -32,13 +31,14 @@ export const workExperience: ProjectList = [
               Polymorphic 컴포넌트 개발
             </StyledA>
           </>,
+          'SVG 아이콘 컴포넌트 변환 자동화',
         ],
         techStack:
-          'Storybook, React, TypeScript, @emotion, framer-motion, Rollup',
+          'Storybook, React, TypeScript, @emotion, framer-motion, turborepo',
       },
       {
         name: 'Hada Dashboard',
-        duration: '2023.01 - 현재',
+        duration: '2023.01 - 2023.08',
         description: (
           <>
             현장 시설 관리 서비스{' '}
@@ -61,7 +61,7 @@ export const workExperience: ProjectList = [
           '명세되지 않은 라이브러리를 참조하는 이슈를 yarn berry 도입으로 해결했습니다.',
           '코드 스타일의 일관성을 위해 공통 lint 규칙을 설정하고 코드 컨벤션 문서를 작성했습니다.',
           '주간 프론트엔드 회의를 주관하며 코드리뷰를 도입했습니다.',
-          '시설 그룹화 기능 개발',
+          '클라이언트 별 관리하는 시설의 사용성을 높이기 위한 시설 그룹화 기능 개발',
           '시설 상세 페이지 개발(시설 정보, 점검 내역, 점검표 조회 기능)',
           '대시보드 필터 UI 및 기능 개편',
           '결제 페이지 내 요금제 정보, 정산담당자, 결제 내역 조회 기능 개발',

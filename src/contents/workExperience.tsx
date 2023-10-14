@@ -3,23 +3,44 @@ import { ProjectList } from './project';
 
 export const workExperience: ProjectList = [
   {
-    title: 'Shopl&Company',
+    title: '샤플앤컴퍼니',
     role: 'Frontend Developer',
     time: '2023.01 - 현재',
     projects: [
       {
         name: 'Shoplflow',
         duration: '2023.07 - 현재',
+        link: [
+          {
+            name: 'Storybook',
+            link: 'https://shoplflow-storybook.vercel.app/?path=/docs/base_colors--docs',
+          },
+          {
+            name: 'Github',
+            link: 'https://github.com/shopl/shoplflow',
+          },
+        ],
         description: (
           <>
-            샤플, 하다 통합 디자인 시스템인 Shoplflow를 리드하여 개발했습니다.
-            style, lint, util 등 사내에서 공통으로 사용할 패키지의 환경을
-            구축했으며 개발자가 코드 외에 신경쓰지 않게 하는 환경을 목표로
-            버전관리, 테스트, 배포 등의 작업을 자동화했습니다.
+            샤플, 하다 통합 디자인 시스템이자 오픈소스인 Shoplflow를 리드하여
+            개발했습니다. style, lint, util 등 사내에서 공통으로 사용할 패키지의
+            환경을 구축했으며 개발자가 코드 외에 신경쓰지 않게 하는 환경을
+            목표로 버전관리, 테스트, 배포 등의 작업을 자동화했습니다. Radix-UI를
+            참고하여 DX 중심의 compound component 패턴으로 컴포넌트를
+            설계했습니다. (
+            <StyledA
+              target="_blank"
+              href={
+                'https://hyeok.dev/%EC%A2%8B%EC%9D%80%20%EC%BD%94%EB%93%9C%EB%9E%80%20%EC%96%B4%EB%96%A4%20%EC%BD%94%EB%93%9C%EC%9D%BC%EA%B9%8C'
+              }
+            >
+              좋은 코드란 어떤 코드일까
+            </StyledA>
+            )
           </>
         ),
         whatYouDid: [
-          'Figma에서 디자인 토큰 편집시 변경사항이 반영된 PR이 생성되도록 CI/CD를 구축',
+          '디자인시스템의 토큰들이 변경사항이 잦은 문제를 개선하기 위해 Figma에서 디자인 토큰 편집시 변경사항이 반영되도록 CI/CD 구축',
           <>
             개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
             <StyledA
@@ -31,13 +52,13 @@ export const workExperience: ProjectList = [
               Polymorphic 컴포넌트 개발
             </StyledA>
           </>,
-          'SVG 아이콘 컴포넌트 변환 자동화',
+          'SVG 아이콘을 변경하거나 수정할 때의 비용감소를 위해 아이콘 컴포넌트 변환 자동화 스크립트 개발',
         ],
         techStack:
-          'Storybook, React, TypeScript, @emotion, framer-motion, turborepo',
+          'pnpm, Storybook, React, TypeScript, @emotion, framer-motion, turborepo',
       },
       {
-        name: 'Hada Dashboard',
+        name: 'HADA Dashboard',
         duration: '2023.01 - 2023.08',
         description: (
           <>
@@ -61,8 +82,9 @@ export const workExperience: ProjectList = [
           '명세되지 않은 라이브러리를 참조하는 이슈를 yarn berry 도입으로 해결했습니다.',
           '코드 스타일의 일관성을 위해 공통 lint 규칙을 설정하고 코드 컨벤션 문서를 작성했습니다.',
           '주간 프론트엔드 회의를 주관하며 코드리뷰를 도입했습니다.',
-          '클라이언트 별 관리하는 시설의 사용성을 높이기 위한 시설 그룹화 기능 개발',
           '시설 상세 페이지 개발(시설 정보, 점검 내역, 점검표 조회 기능)',
+          '시설 그룹 필터 변경 후 UI가 프리징되는 이슈를 useTransition으로 90% 개선 (2s → 0.2s)',
+          '시설 필터 추가, 수정시 UX의 일관성을 위한 의견 제시로 기획 내용 변경',
           '대시보드 필터 UI 및 기능 개편',
           '결제 페이지 내 요금제 정보, 정산담당자, 결제 내역 조회 기능 개발',
         ],

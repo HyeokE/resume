@@ -83,6 +83,7 @@ export const experienceData: ExperienceType = {
     {
       title: 'GDSC Career, 하루간 구글을 무료체험 해보세요',
       time: '2022. 07. 02',
+      role: 'Organizer',
       description: (
         <>
           <StyledA target="_blank" href={'https://festa.io/events/2397'}>

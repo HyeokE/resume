@@ -24,9 +24,9 @@ export const workExperience: ProjectList = [
           <>
             샤플, 하다 통합 디자인 시스템이자 오픈소스인 Shoplflow를 리드하여
             개발했습니다. style, lint, util 등 사내에서 공통으로 사용할 패키지의
-            환경을 구축했으며 개발자가 코드 외에 신경쓰지 않게 하는 환경을
-            목표로 버전관리, 테스트, 배포 등의 작업을 자동화했습니다. DX 중심의
-            compound component 패턴으로 컴포넌트를 설계했습니다. (
+            환경을 구축했으며 개발자의 시간을 절약하는 것을 목표로 버전관리,
+            테스트, 배포 등의 작업을 자동화했습니다. DX 중심의 compound
+            component 패턴으로 컴포넌트를 설계했습니다. (
             <StyledA
               target="_blank"
               href={

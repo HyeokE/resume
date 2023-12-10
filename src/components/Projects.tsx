@@ -70,25 +70,25 @@ const Projects = ({
                   Description<PeriodMark>.</PeriodMark>
                 </StyledH5>
                 <StyledP>{project.description}</StyledP>
-                {project.whatYouDid && (
+                {project.WhatDidIDo && (
                   <>
                     <StyledH5>
                       What did I do<PeriodMark>.</PeriodMark>
                     </StyledH5>
                     <StyledUl>
-                      {project.whatYouDid.map((did, id) => (
+                      {project.WhatDidIDo.map((did, id) => (
                         <StyledLi key={id}>{did}</StyledLi>
                       ))}
                     </StyledUl>
                   </>
                 )}
-                {project.whatYouLearn && (
+                {project.WhatDidILearn && (
                   <>
                     <StyledH5>
                       What did I Learn<PeriodMark>.</PeriodMark>
                     </StyledH5>
                     <StyledUl>
-                      {project.whatYouLearn.map((learn, id) => (
+                      {project.WhatDidILearn.map((learn, id) => (
                         <StyledLi key={id}>{learn}</StyledLi>
                       ))}
                     </StyledUl>

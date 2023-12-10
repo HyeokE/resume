@@ -13,8 +13,8 @@ export interface ProjectProps {
       link: string;
     }[];
     description?: ReactNode;
-    whatYouLearn?: ReactNode[];
-    whatYouDid: ReactNode[];
+    WhatDidILearn?: ReactNode[];
+    WhatDidIDo: (ReactNode | Record<string, ReactNode>)[];
     techStack: string;
   }[];
 }
@@ -42,7 +42,7 @@ export const projectData: ProjectList = [
             link: 'https://web.gdsc-dju.com',
           },
         ],
-        whatYouDid: [
+        WhatDidIDo: [
           'webpack → vite 번들러 변경으로 빌드 속도 67% 상승 (98.40s → 42.88s)',
           '성능 개선을 위한 React-Lazy 적용',
           'SVG 모션 사파리 크로스브라우징 이슈 해결',
@@ -51,7 +51,7 @@ export const projectData: ProjectList = [
           'Github Action firebase Hosting/Preview 세팅',
           'Atmoic Design 패턴 적용',
         ],
-        whatYouLearn: ['CORS 오류', '무료 도메인 이슈'],
+        WhatDidILearn: ['CORS 오류', '무료 도메인 이슈'],
         techStack:
           'Yarn Berry, React, TypeScript, Styled-component, Recoil, Framer-motion, firebase Hosting, @gdsc-dju/styled-components',
       },
@@ -71,7 +71,7 @@ export const projectData: ProjectList = [
       //       link: 'https://blog.gdsc-dju.com',
       //     },
       //   ],
-      //   whatYouDid: [
+      //   WhatDidIDo: [
       //     'CI/CD 세팅',
       //     '내 블로그, 스크랩, 프로필 수정 페이지 개발',
       //     '글 작성, 수정 페이지 리팩토링',
@@ -98,7 +98,7 @@ export const projectData: ProjectList = [
             link: 'https://design.gdsc-dju.com/',
           },
         ],
-        whatYouDid: [
+        WhatDidIDo: [
           'mode type에 따른 dark, light mode 변경 기능 개발',
           'token type 지정',
           'Navigation, Footer, Input 등 공용 컴포넌트 개발',
@@ -118,7 +118,7 @@ export const projectData: ProjectList = [
             link: 'https://github.com/GDSC-Daejin/gdsc-dju-websites/tree/master',
           },
         ],
-        whatYouDid: [
+        WhatDidIDo: [
           '지원자 관리 페이지, 지원서 Modal 개발',
           '지원서에 대한 comment 기능 개발',
           '지원자 합류과정에 따른 filter 기능 개발',
@@ -143,11 +143,11 @@ export const projectData: ProjectList = [
       //       link: 'https://devfest-2021-guestbook.netlify.app',
       //     },
       //   ],
-      //   whatYouDid: [
+      //   WhatDidIDo: [
       //     '로그인, 로그아웃 관련 Modal 개발',
       //     '유저 프로필, 프로필 수정 개발',
       //   ],
-      //   whatYouLearn: ['백엔드와의 커뮤니케이션', 'Commit Convention'],
+      //   WhatDidILearn: ['백엔드와의 커뮤니케이션', 'Commit Convention'],
       //   techStack: 'React, TypeScript, Styled-component, Recoil, SWR, Axios',
       // },
     ],
@@ -173,12 +173,12 @@ export const projectData: ProjectList = [
   //           link: 'https://github.com/ozet-team/ozet-hybrid',
   //         },
   //       ],
-  //       whatYouDid: [
+  //       WhatDidIDo: [
   //         '반응형 이력서 페이지 개발',
   //         '상세공고 페이지 개발',
   //         '이력서 PDF 마크업',
   //       ],
-  //       whatYouLearn: [
+  //       WhatDidILearn: [
   //         '이력서 페이지 부분의 개발공수를 고려하며 디자이너 분과 상의를 통해 슬라이드 모션을 조율했습니다.',
   //       ],
   //       techStack:

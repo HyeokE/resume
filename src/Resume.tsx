@@ -117,28 +117,128 @@ const Resume = () => {
                   What did I do<PeriodMark>.</PeriodMark>
                 </StyledH5>
                 <StyledUl>
-                  <StyledLi>
-                    디자인시스템의 토큰들이 변경사항이 잦은 문제를 개선하기 위해
-                    Figma에서 디자인 토큰 편집시 변경사항이 반영되도록 CI/CD
-                    구축
+                  <StyledLi bold>
+                    디자인 토큰들이 변경이 잦아 개발자가 직접 코드를
+                    수정해야하는 비효율을 개선
                   </StyledLi>
-                  <StyledLi>
-                    <>
-                      개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
-                      <StyledA
-                        target="_blank"
-                        href={
-                          'https://hyeok.dev/Polymorphic%ED%95%9C%20React%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0'
-                        }
-                      >
-                        Polymorphic 컴포넌트 개발
-                      </StyledA>
-                    </>
+                  <StyledUl>
+                    <StyledLi>
+                      Figma에서 디자인 토큰 편집시 npm 라이브러리에도 변경사항이
+                      자동으로 반영되도록 CI/CD를 구축했습니다.
+                    </StyledLi>
+                  </StyledUl>
+                  <StyledLi bold>
+                    컴포넌트에 적절하지 않은 스멘틱 태그가 사용되는 문제를 해결
                   </StyledLi>
-                  <StyledLi>
-                    SVG 아이콘을 변경하거나 수정할 때의 비용감소를 위해 아이콘
-                    컴포넌트 변환 SVG → RFC 자동화 스크립트 개발
+                  <StyledUl>
+                    <StyledLi>
+                      <>
+                        개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
+                        <StyledA
+                          target="_blank"
+                          href={
+                            'https://hyeok.dev/Polymorphic%ED%95%9C%20React%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0'
+                          }
+                        >
+                          Polymorphic 컴포넌트
+                        </StyledA>
+                        를 개발하여 개선했습니다.
+                      </>
+                    </StyledLi>
+                  </StyledUl>
+                  <StyledLi bold>
+                    아이콘을 추가로 등록하거나 수정할 때 개발자가 직접 코드를
+                    수정하는 비효율을 개선
                   </StyledLi>
+                  <StyledUl>
+                    <StyledLi>
+                      SVG 아이콘을 변경하거나 수정할 때의 비용감소를 위해 아이콘
+                      컴포넌트 변환 SVG → RFC 자동화 스크립트 개발
+                    </StyledLi>
+                  </StyledUl>
+                </StyledUl>
+              </>
+              <StyledH5>
+                TechStack<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <p>
+                pnpm, Storybook, React, TypeScript, @emotion, framer-motion,
+                turborepo
+              </p>
+            </Project>
+            <Project>
+              <StyledH4>
+                HADA Dashboard
+                <PeriodMark>.</PeriodMark>
+              </StyledH4>
+
+              <Time>2023.01 - 2023.08</Time>
+
+              <StyledH5>
+                Description<PeriodMark>.</PeriodMark>
+              </StyledH5>
+              <StyledP>
+                <>
+                  현장 시설 관리 서비스{' '}
+                  <StyledA target="_blank" href={'https://www.hadaworks.com'}>
+                    하다
+                  </StyledA>
+                  의{' '}
+                  <StyledA
+                    target="_blank"
+                    href={'https://dashboard.hadaworks.com/auth/signup'}
+                  >
+                    대시보드 페이지
+                  </StyledA>
+                  를 개발했습니다. 유지보수를 비롯해 비즈니스의 요구에 맞는
+                  다양한 기능을 개발했습니다. 사용자의 관점에서 생각하며,
+                  적극적인 의견 제시로 기획이 변경되기도 했습니다.
+                </>
+              </StyledP>
+
+              <>
+                <StyledH5>
+                  What did I do<PeriodMark>.</PeriodMark>
+                </StyledH5>
+                <StyledUl>
+                  <StyledLi bold>
+                    프로젝트 내부에 명세되지 않은 라이브러리를 참조하는 이슈
+                    개선
+                  </StyledLi>
+                  <StyledUl>
+                    <StyledLi>
+                      명세되지 않은 라이브러리를 참조하는 이슈를 yarn berry
+                      도입으로 해결했습니다.
+                    </StyledLi>
+                  </StyledUl>
+                  <StyledLi bold>
+                    시설 그룹 필터 변경 후 UI가 프리징되는 이슈를
+                    useTransition으로 90% 개선 (2s → 0.2s)
+                  </StyledLi>
+                  <StyledLi bold>
+                    시설 필터 추가, 수정시 UX의 일관성을 위한 의견 제시로 기획
+                    내용 변경
+                  </StyledLi>
+                  <StyledUl>
+                    <StyledLi>
+                      시설 필터를 수정할 때 각 항목의 수정사항이 반영되는 시점이
+                      다른 모달과 다른 문제가 있었습니다. 사용자에게 일관된
+                      경험을 주기 위해 적극적인 의견 제시로 기획이
+                      변경되었습니다.
+                    </StyledLi>
+                  </StyledUl>
+                  <StyledLi bold>
+                    지속 가능한 코드와 개발 문화를 만들기 위해 노력했습니다.
+                  </StyledLi>
+                  <StyledUl>
+                    <StyledLi>
+                      코드 스타일의 일관성을 위해 공통 lint 규칙을 설정하고 코드
+                      컨벤션 문서를 작성했습니다.
+                    </StyledLi>
+                    <StyledLi>
+                      주간 프론트엔드 회의를 주관하며 코드리뷰를 도입했습니다.
+                    </StyledLi>
+                  </StyledUl>
                 </StyledUl>
               </>
               <StyledH5>
@@ -152,7 +252,6 @@ const Resume = () => {
           </RowRight>
         </Row>
       </StyledSection>
-      <Projects data={workExperience} type={'WORK'} />
       <Projects data={projectData} type={'PROJECT'} />
       <Communication data={communicationData} />
       <Experience data={experienceData} />

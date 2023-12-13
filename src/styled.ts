@@ -60,23 +60,47 @@ export const ImageWrapper = styled.div`
 export const StyledUl = styled.ul`
   list-style: none;
   padding: 0;
+
   margin: 0 0 1rem 0;
   font-size: 1.1rem;
   & > li {
     position: relative;
     padding: 0.2rem 0 0.2rem 1rem;
   }
+
   & > li:before {
     position: absolute;
     left: 0;
+    top: -0.15rem;
     display: inline-block;
+    font-size: 1.5rem;
     content: '•';
     color: #3a7bd5;
   }
+
+  & > li > ul {
+    font-size: 1rem;
+    padding: 0;
+  }
+  & > ul > li {
+    position: relative;
+    padding: 0.2rem 0 0.2rem 2rem;
+  }
+  & > ul > li:before {
+    position: absolute;
+    left: 1rem;
+    display: inline-block;
+    content: '◦';
+    color: #3a7bd5;
+  }
 `;
-export const StyledLi = styled.li`
+export const StyledLi = styled.li<{
+  bold?: boolean;
+}>`
+  ${({ bold }) => (bold ? 'font-weight: 600;' : '')};
   position: relative;
   padding: 0.2rem 0 0.2rem 1rem;
+  line-height: 1.3;
   &:before {
     position: absolute;
     left: 0;

@@ -114,7 +114,7 @@ const Resume = () => {
 
               <>
                 <StyledH5>
-                  What did I do<PeriodMark>.</PeriodMark>
+                  What I did<PeriodMark>.</PeriodMark>
                 </StyledH5>
                 <StyledUl>
                   <StyledLi bold>
@@ -198,7 +198,7 @@ const Resume = () => {
 
               <>
                 <StyledH5>
-                  What did I do<PeriodMark>.</PeriodMark>
+                  What I did<PeriodMark>.</PeriodMark>
                 </StyledH5>
                 <StyledUl>
                   <StyledLi bold>

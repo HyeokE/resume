@@ -39,7 +39,7 @@ export const workExperience: ProjectList = [
             )
           </>
         ),
-        WhatDidIDo: [
+        WhatIDid: [
           '디자인시스템의 토큰들이 변경사항이 잦은 문제를 개선하기 위해 Figma에서 디자인 토큰 편집시 변경사항이 반영되도록 CI/CD 구축',
           <>
             개발자 경험과 유연한 시멘틱 태그를 제공하기 위한{' '}
@@ -78,7 +78,7 @@ export const workExperience: ProjectList = [
             제시로 기획이 변경되기도 했습니다.
           </>
         ),
-        WhatDidIDo: [
+        WhatIDid: [
           '명세되지 않은 라이브러리를 참조하는 이슈를 yarn berry 도입으로 해결했습니다.',
           '코드 스타일의 일관성을 위해 공통 lint 규칙을 설정하고 코드 컨벤션 문서를 작성했습니다.',
           '주간 프론트엔드 회의를 주관하며 코드리뷰를 도입했습니다.',

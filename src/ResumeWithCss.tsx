@@ -99,7 +99,7 @@ function ResumeWithCss() {
                 에셋이 확정되면 추가로 업데이트할 예정입니다.
               </p>
               <h5>
-                What did I do<span className="period-mark">.</span>
+                What I did<span className="period-mark">.</span>
               </h5>
               <ul>
                 <li>mode type에 따른 dark, light mode 변경 기능 개발</li>
@@ -141,7 +141,7 @@ function ResumeWithCss() {
                 기획하였습니다. 현재 리팩토링 작업 중입니다.
               </p>
               <h5>
-                What did I do<span className="period-mark">.</span>
+                What I did<span className="period-mark">.</span>
               </h5>
               <ul>
                 <li>Github Action firebase deploy/Preview 세팅</li>
@@ -184,7 +184,7 @@ function ResumeWithCss() {
                 개발할 예정입니다.
               </p>
               <h5>
-                What did I do<span className="period-mark">.</span>
+                What I did<span className="period-mark">.</span>
               </h5>
               <ul>
                 <li>지원자 관리 페이지, 지원자 세부 정보 열람 기능 개발</li>
@@ -236,7 +236,7 @@ function ResumeWithCss() {
                 변경을 진행했습니다.
               </p>
               <h5>
-                What did I do<span className="period-mark">.</span>
+                What I did<span className="period-mark">.</span>
               </h5>
               <ul>
                 <li>코드 재사용성 증가를 위한 Component 분리</li>
@@ -309,7 +309,7 @@ function ResumeWithCss() {
                 출석부 제작에 프론트엔드 개발자 3명 중 한 명으로 참여하였습니다.
               </p>
               <h5>
-                What did I do<span className="period-mark">.</span>
+                What I did<span className="period-mark">.</span>
               </h5>
               <ul>
                 <li>로그인, 로그아웃 관련 Modal 제작</li>
@@ -374,7 +374,7 @@ function ResumeWithCss() {
                 노력했습니다.
               </p>
               <h5>
-                What did I do<span className="period-mark">.</span>
+                What I did<span className="period-mark">.</span>
               </h5>
               <ul>
                 <li>반응형 이력서 페이지 개발</li>

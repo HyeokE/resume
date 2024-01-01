@@ -70,13 +70,13 @@ const Projects = ({
                   Description<PeriodMark>.</PeriodMark>
                 </StyledH5>
                 <StyledP>{project.description}</StyledP>
-                {project.WhatDidIDo && (
+                {project.WhatIDid && (
                   <>
                     <StyledH5>
-                      What did I do<PeriodMark>.</PeriodMark>
+                      What I did<PeriodMark>.</PeriodMark>
                     </StyledH5>
                     <StyledUl>
-                      {project.WhatDidIDo.map((did, id) => (
+                      {project.WhatIDid.map((did, id) => (
                         <StyledLi key={id}>{did}</StyledLi>
                       ))}
                     </StyledUl>

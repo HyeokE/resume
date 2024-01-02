@@ -27,7 +27,6 @@ import Communication from './components/Communciation';
 import { communicationData } from './contents/communication';
 import Experience from './components/Experience';
 import { experienceData } from './contents/experience';
-import { workExperience } from './contents/workExperience';
 
 const Resume = () => {
   return (

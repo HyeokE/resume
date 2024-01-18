@@ -34,7 +34,7 @@
     "start": "vite start",
     "build": "vite build",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

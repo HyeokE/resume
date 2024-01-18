@@ -39,7 +39,7 @@ export const projectData: ProjectList = [
           },
           {
             name: 'Website',
-            link: 'https://web.gdsc-dju.com',
+            link: 'https://gdscdju.dev',
           },
         ],
         WhatIDid: [
@@ -92,10 +92,6 @@ export const projectData: ProjectList = [
           {
             name: 'Github',
             link: 'https://github.com/GDSC-Daejin/design-seed',
-          },
-          {
-            name: 'Docs',
-            link: 'https://design.gdsc-dju.com/',
           },
         ],
         WhatIDid: [

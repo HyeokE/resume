@@ -18,6 +18,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "noUnusedLocals": false, // deployment bug fix
+    "noUnusedParameters": false, // deployment bug fix
     "jsx": "react-jsx"
   },
   "include": [

@@ -10,6 +10,7 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  base: '/resume/',
   build: {
     outDir: 'build',
   },
